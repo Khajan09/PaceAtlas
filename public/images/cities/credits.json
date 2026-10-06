@@ -1,0 +1,232 @@
+{
+  "new-york": {
+    "file": "new-york.jpg",
+    "title": "File:New York City at night HDR.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:New_York_City_at_night_HDR.jpg"
+  },
+  "istanbul": {
+    "file": "istanbul.jpg",
+    "title": "File:Istanbul night skyline (2893161304).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Istanbul_night_skyline_(2893161304).jpg"
+  },
+  "porto": {
+    "file": "porto.jpg",
+    "title": "File:Sydney Harbour Bridge night.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_night.jpg"
+  },
+  "honolulu": {
+    "file": "honolulu.jpg",
+    "title": "File:Starr 030711-0084 Kim in Honolulu, Oahu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Starr_030711-0084_Kim_in_Honolulu,_Oahu.jpg"
+  },
+  "houston": {
+    "file": "houston.jpg",
+    "title": "File:Houston Cityscape.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Houston_Cityscape.jpg"
+  },
+  "mumbai": {
+    "file": "mumbai.jpg",
+    "title": "File:Cityscape of Mumbai (2006).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cityscape_of_Mumbai_(2006).jpg"
+  },
+  "dubai": {
+    "file": "dubai.png",
+    "title": "File:View of Dubai Marina Skyline on a foggy day.png",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_Dubai_Marina_Skyline_on_a_foggy_day.png"
+  },
+  "tokyo": {
+    "file": "tokyo.jpg",
+    "title": "File:US Yokota Air Base 3 Tokyo Japan.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:US_Yokota_Air_Base_3_Tokyo_Japan.jpg"
+  },
+  "athens": {
+    "file": "athens.jpg",
+    "title": "Athens",
+    "source": "https://en.wikipedia.org/wiki/Athens"
+  },
+  "valencia": {
+    "file": "valencia.jpg",
+    "title": "Valencia",
+    "source": "https://en.wikipedia.org/wiki/Valencia"
+  },
+  "los-angeles": {
+    "file": "los-angeles.jpg",
+    "title": "Los Angeles",
+    "source": "https://en.wikipedia.org/wiki/Los_Angeles"
+  },
+  "seoul": {
+    "file": "seoul.jpg",
+    "title": "Seoul",
+    "source": "https://en.wikipedia.org/wiki/Seoul"
+  },
+  "paris": {
+    "file": "paris.jpg",
+    "title": "Paris",
+    "source": "https://en.wikipedia.org/wiki/Paris"
+  },
+  "rotterdam": {
+    "file": "rotterdam.jpg",
+    "title": "Rotterdam",
+    "source": "https://en.wikipedia.org/wiki/Rotterdam"
+  },
+  "boston": {
+    "file": "boston.jpg",
+    "title": "Boston",
+    "source": "https://en.wikipedia.org/wiki/Boston"
+  },
+  "london": {
+    "file": "london.jpg",
+    "title": "London",
+    "source": "https://en.wikipedia.org/wiki/London"
+  },
+  "madrid": {
+    "file": "madrid.jpg",
+    "title": "Madrid",
+    "source": "https://en.wikipedia.org/wiki/Madrid"
+  },
+  "vienna": {
+    "file": "vienna.jpg",
+    "title": "Vienna",
+    "source": "https://en.wikipedia.org/wiki/Vienna"
+  },
+  "prague": {
+    "file": "prague.jpg",
+    "title": "Prague",
+    "source": "https://en.wikipedia.org/wiki/Prague"
+  },
+  "copenhagen": {
+    "file": "copenhagen.jpg",
+    "title": "Copenhagen",
+    "source": "https://en.wikipedia.org/wiki/Copenhagen"
+  },
+  "cape-town": {
+    "file": "cape-town.jpg",
+    "title": "Cape Town",
+    "source": "https://en.wikipedia.org/wiki/Cape_Town"
+  },
+  "ottawa": {
+    "file": "ottawa.jpg",
+    "title": "Ottawa",
+    "source": "https://en.wikipedia.org/wiki/Ottawa"
+  },
+  "stockholm": {
+    "file": "stockholm.jpg",
+    "title": "Stockholm",
+    "source": "https://en.wikipedia.org/wiki/Stockholm"
+  },
+  "rio-de-janeiro": {
+    "file": "rio-de-janeiro.jpg",
+    "title": "Rio de Janeiro",
+    "source": "https://en.wikipedia.org/wiki/Rio_de_Janeiro"
+  },
+  "gold-coast": {
+    "file": "gold-coast.jpg",
+    "title": "Gold Coast, Queensland",
+    "source": "https://en.wikipedia.org/wiki/Gold_Coast%2C_Queensland"
+  },
+  "sydney": {
+    "file": "sydney.jpg",
+    "title": "Sydney",
+    "source": "https://en.wikipedia.org/wiki/Sydney"
+  },
+  "buenos-aires": {
+    "file": "buenos-aires.jpg",
+    "title": "Buenos Aires",
+    "source": "https://en.wikipedia.org/wiki/Buenos_Aires"
+  },
+  "casablanca": {
+    "file": "casablanca.jpg",
+    "title": "Casablanca",
+    "source": "https://en.wikipedia.org/wiki/Casablanca"
+  },
+  "marrakech": {
+    "file": "marrakech.jpg",
+    "title": "Marrakesh",
+    "source": "https://en.wikipedia.org/wiki/Marrakesh"
+  },
+  "sao-paulo": {
+    "file": "sao-paulo.jpg",
+    "title": "São Paulo",
+    "source": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo"
+  },
+  "santiago": {
+    "file": "santiago.jpg",
+    "title": "Santiago",
+    "source": "https://en.wikipedia.org/wiki/Santiago"
+  },
+  "lima": {
+    "file": "lima.jpg",
+    "title": "Lima",
+    "source": "https://en.wikipedia.org/wiki/Lima"
+  },
+  "rabat": {
+    "file": "rabat.jpg",
+    "title": "Rabat",
+    "source": "https://en.wikipedia.org/wiki/Rabat"
+  },
+  "durban": {
+    "file": "durban.jpg",
+    "title": "Durban",
+    "source": "https://en.wikipedia.org/wiki/Durban"
+  },
+  "porto-alegre": {
+    "file": "porto-alegre.jpg",
+    "title": "Porto Alegre",
+    "source": "https://en.wikipedia.org/wiki/Porto_Alegre"
+  },
+  "nairobi": {
+    "file": "nairobi.jpg",
+    "title": "Nairobi",
+    "source": "https://en.wikipedia.org/wiki/Nairobi"
+  },
+  "berlin": {
+    "file": "berlin.jpg",
+    "title": "Berlin",
+    "source": "https://en.wikipedia.org/wiki/Berlin"
+  },
+  "lisbon": {
+    "file": "lisbon.jpg",
+    "title": "Lisbon",
+    "source": "https://en.wikipedia.org/wiki/Lisbon"
+  },
+  "chicago": {
+    "file": "chicago.jpg",
+    "title": "Chicago",
+    "source": "https://en.wikipedia.org/wiki/Chicago"
+  },
+  "montreal": {
+    "file": "montreal.jpg",
+    "title": "Montréal",
+    "source": "https://en.wikipedia.org/wiki/Montr%C3%A9al"
+  },
+  "beijing": {
+    "file": "beijing.jpg",
+    "title": "Beijing",
+    "source": "https://en.wikipedia.org/wiki/Beijing"
+  },
+  "amsterdam": {
+    "file": "amsterdam.jpg",
+    "title": "Amsterdam",
+    "source": "https://en.wikipedia.org/wiki/Amsterdam"
+  },
+  "toronto": {
+    "file": "toronto.jpg",
+    "title": "Toronto",
+    "source": "https://en.wikipedia.org/wiki/Toronto"
+  },
+  "dublin": {
+    "file": "dublin.jpg",
+    "title": "Dublin",
+    "source": "https://en.wikipedia.org/wiki/Dublin"
+  },
+  "frankfurt": {
+    "file": "frankfurt.jpg",
+    "title": "Frankfurt",
+    "source": "https://en.wikipedia.org/wiki/Frankfurt"
+  },
+  "venice": {
+    "file": "venice.jpg",
+    "title": "Venice",
+    "source": "https://en.wikipedia.org/wiki/Venice"
+  }
+}
