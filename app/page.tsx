@@ -6,8 +6,8 @@ type Tier='Major'|'Global label'|'Iconic';
 type Race={city:string;country:string;code:string;region:string;name:string;date:string;event?:string;registration:string;status:Status;terrain:string;tier:Tier;link:string;featured?:boolean;lat?:number;lon?:number;distances?:string[]};
 const r=(city:string,country:string,code:string,region:string,name:string,date:string,registration:string,status:Status,terrain:string,tier:Tier,link:string,event?:string,featured?:boolean):Race=>({city,country,code,region,name,date,registration,status,terrain,tier,link,event,featured});
 const races:Race[]=[
-r('Berlin','Germany','DE','Europe','BMW Berlin Marathon','2026-09-27','Entry closed','Closed','Fast & flat','Major','https://www.bmw-berlin-marathon.com/',undefined,true),
-r('Lisbon','Portugal','PT','Europe','EDP Lisbon Marathon','2026-10-10','Check current availability','Verify','Coastal','Global label','https://maratonaclubedeportugal.com/en/'),
+r('Berlin','Germany','DE','Europe','Generali Berlin Marathon','2027-09-26','2027 lottery registration open','Open','Fast & flat','Major','https://www.generali-berlin-marathon.com/',undefined,true),
+r('Lisbon','Portugal','PT','Europe','EDP Lisbon Marathon','2026-10-10','Registration open','Open','Coastal','Global label','https://maratonaclubedeportugal.com/en/'),
 r('Chicago','United States','US','Americas','Bank of America Chicago Marathon','2026-10-11','Entry closed','Closed','Fast & flat','Major','https://www.chicagomarathon.com/'),
 r('Montréal','Canada','CA','Americas','Marathon Beneva de Montréal','2026-10-11','Check current availability','Verify','Rolling','Global label','https://mtlmarathon.com/en/'),
 r('Beijing','China','CN','Asia','Beijing Marathon','2026-10-18','Entry / ballot closed','Closed','City course','Global label','https://www.beijing-marathon.com/'),
@@ -17,13 +17,13 @@ r('Dublin','Ireland','IE','Europe','Irish Life Dublin Marathon','2026-10-25','En
 r('Frankfurt','Germany','DE','Europe','Mainova Frankfurt Marathon','2026-10-25','Check current availability','Verify','Fast','Global label','https://www.frankfurt-marathon.com/en/'),
 r('Venice','Italy','IT','Europe','Venicemarathon','2026-10-25','Check current availability','Verify','Flat & bridges','Global label','https://www.venicemarathon.it/en/'),
 r('New York','United States','US','Americas','TCS New York City Marathon','2026-11-01','Entry closed','Closed','Hilly','Major','https://www.nyrr.org/tcsnycmarathon'),
-r('Istanbul','Türkiye','TR','Europe','Türkiye İş Bankası Istanbul Marathon','2026-11-01','Check current availability','Verify','Intercontinental','Global label','https://maraton.istanbul/'),
-r('Athens','Greece','GR','Europe','Athens Marathon — The Authentic','2026-11-08','Check current availability','Verify','Historic & hilly','Iconic','https://www.athensauthenticmarathon.gr/'),
+r('Istanbul','Türkiye','TR','Europe','Türkiye İş Bankası Istanbul Marathon','2026-11-01','Registration open','Open','Intercontinental','Global label','https://maraton.istanbul/'),
+r('Athens','Greece','GR','Europe','Athens Marathon — The Authentic','2026-11-08','Marathon sold out','Closed','Historic & hilly','Iconic','https://www.athensauthenticmarathon.gr/'),
 r('Porto','Portugal','PT','Europe','EDP Porto Marathon','2026-11-08','Check current availability','Verify','Riverside','Global label','https://www.maratonadoporto.com/en/'),
 r('Valencia','Spain','ES','Europe','Valencia Marathon Trinidad Alfonso','2026-12-06','Entry closed / waitlist','Closed','Fast & flat','Global label','https://www.valenciaciudaddelrunning.com/en/marathon/'),
 r('Honolulu','United States','US','Americas','Honolulu Marathon','2026-12-13','Registration open','Open','Tropical & rolling','Iconic','https://www.honolulumarathon.org/'),
 r('Houston','United States','US','Americas','Chevron Houston Marathon','2027-01-17','Check current availability','Verify','Fast & flat','Global label','https://www.chevronhoustonmarathon.com/'),
-r('Mumbai','India','IN','Asia','Tata Mumbai Marathon','2027-01-17','Expected Aug–Nov 2026','Opening soon','Coastal city','Global label','https://tatamumbaimarathon.procam.in/'),
+r('Mumbai','India','IN','Asia','Tata Mumbai Marathon','2027-01-17','Registration available','Open','Coastal city','Global label','https://tatamumbaimarathon.procam.in/'),
 r('Dubai','United Arab Emirates','AE','Asia','Dubai Marathon','2027-01-17','Registration open','Open','Fast & flat','Global label','https://www.dubaimarathon.org/',undefined),
 r('Tokyo','Japan','JP','Asia','Tokyo Marathon','2027-03-07','Closed Aug 28, 2026','Closed','Fast & flat','Major','https://www.marathon.tokyo/en/'),
 r('Los Angeles','United States','US','Americas','Los Angeles Marathon','2027-03-21','Registration open','Open','Point-to-point','Iconic','https://www.mccourtfoundation.org/pages/la-marathon'),
@@ -62,7 +62,7 @@ const multiDistance=new Set(['Lisbon','Montréal','Toronto','Frankfurt','Venice'
 const distances=(race:Race)=>race.distances?.length?race.distances:race.city==='Chicago'||race.city==='New York'||race.city==='Boston'?['Marathon','5K']:multiDistance.has(race.city)?['Marathon','Half marathon','10K','5K']:['Marathon'];
 const formatUpdatedAt=(value:string)=>new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',hour:'numeric',minute:'2-digit',timeZone:'America/Toronto',timeZoneName:'short'}).format(new Date(value));
 export default function Home(){
- const[catalog,setCatalog]=useState<Race[]>(races);const[lastUpdated,setLastUpdated]=useState(formatUpdatedAt('2026-10-06T00:18:09Z'));
+ const[catalog,setCatalog]=useState<Race[]>(races);const[lastUpdated,setLastUpdated]=useState(formatUpdatedAt('2026-10-06T10:02:14Z'));
  const[query,setQuery]=useState('');const[region,setRegion]=useState('All regions');const[openOnly,setOpenOnly]=useState(false);const[distance,setDistance]=useState('All distances');const[sort,setSort]=useState('event');const[view,setView]=useState<'list'|'map'>('list');
  useEffect(()=>{let active=true;fetch('/api/races',{cache:'no-store'}).then(response=>response.ok?response.json():Promise.reject()).then(data=>{if(active&&Array.isArray(data.races)&&data.races.length){setCatalog(data.races);if(data.updatedAt)setLastUpdated(formatUpdatedAt(data.updatedAt))}}).catch(()=>{});return()=>{active=false}},[]);
  const filtered=useMemo(()=>catalog.filter(x=>`${x.city} ${x.country} ${x.name}`.toLowerCase().includes(query.toLowerCase())&&(region==='All regions'||x.region===region)&&(!openOnly||x.status==='Open')&&(distance==='All distances'||distances(x).includes(distance))).sort((a,b)=>{if(sort==='registration'){const rank=(x:Race)=>x.status==='Open'?0:x.status==='Opening soon'?1:x.status==='Verify'?2:3;return rank(a)-rank(b)}return(a.date||'9999').localeCompare(b.date||'9999')}),[catalog,query,region,openOnly,distance,sort]);
