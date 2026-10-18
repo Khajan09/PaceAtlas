@@ -1,0 +1,32 @@
+name: Daily catalog source check
+
+on:
+  schedule:
+    - cron: '7 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-catalog-refresh
+  cancel-in-progress: false
+
+jobs:
+  verify-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check official race sources
+        run: node scripts/check-race-sources.mjs
+      - name: Publish daily verification timestamp
+        run: |
+          git config user.name "paceatlas-bot"
+          git config user.email "paceatlas-bot@users.noreply.github.com"
+          git add public/catalog-status.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: record daily catalog verification"
+          git push
