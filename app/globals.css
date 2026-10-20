@@ -132,3 +132,7 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
 /* Place the photographic background above the hero canvas and below all content. */
 .hero-photo{z-index:1!important}
 .hero>*:not(.hero-photo){z-index:2!important}
+
+/* Paint the intact 1947x808 asset directly on the hero canvas. */
+.hero.shell{background-color:#f0eee8!important;background-image:url('/images/runners-hero.png')!important;background-size:100% auto!important;background-position:top center!important;background-repeat:no-repeat!important}
+.hero-photo{display:none!important}
