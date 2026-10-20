@@ -53,3 +53,22 @@ h1,h2,h3,.brand{font-family:var(--hand)}
 @media(max-width:800px){.hero:before{background-position:0 0,0 0,66% center}.hero h1{font-size:clamp(27px,7.4vw,52px)}.feature-band:after{width:140px;height:140px;right:-25px}.directory:before{display:none}}
 
 /* deployment bundle includes bright hero and running mascot */
+
+
+/* Performance runners + resilient editorial spacing */
+.hero:before{background-image:linear-gradient(90deg,#f4f0e8f5 0%,#f4f0e8d9 34%,#f4f0e82e 61%,transparent 76%),linear-gradient(0deg,#17181424,transparent 55%),url('/images/runners-hero-v4.png');background-position:0 0,0 0,57% center}
+h1,h2,h3,.brand,.feature-card h2,.moment-head h2,.section-head h2,.race-name h3,.detail-hero h1,.detail-columns h2,.moment-card strong,.fact strong,.route-evidence>strong,.policy-card strong,.quick-stats strong,.date-row strong,.footer-inner strong{font-family:var(--hand);font-weight:500}
+h1,h2,h3,.race-name h3,.moment-card strong,.fact strong,.route-evidence>strong,.policy-card strong{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+.hero h1{white-space:nowrap;max-width:calc(100vw - 48px)}
+.feature-card>*,.section-head>*,.race-row>*,.race-name>*,.detail-columns>*,.fact,.policy-card,.moment-card{min-width:0}
+.feature-card{padding-inline:clamp(22px,4vw,56px)}
+.feature-card h2{max-width:100%}.feature-info{padding-block:8px;padding-right:8px}.date-row>div{min-width:0}.date-row strong{overflow-wrap:anywhere}
+.moment-card{padding:clamp(22px,3vw,30px)}.moment-card strong,.moment-card small{white-space:normal;overflow-wrap:anywhere}
+.section-head{gap:32px}.section-head p{width:min(100%,370px)}
+.tool-row,.filters{padding-inline:clamp(14px,2.5vw,26px)}
+.race-row{padding:clamp(18px,2.5vw,28px)}.race-row:hover{padding-inline:clamp(18px,2.5vw,28px)}
+.race-name{align-items:flex-start}.race-name h3{line-height:1.08}.race-name p,.cell span{white-space:normal;overflow:visible;line-height:1.45}.cell strong{white-space:normal;overflow-wrap:anywhere;line-height:1.35}
+.fact-grid{grid-template-columns:repeat(auto-fit,minmax(185px,1fr))}.fact{padding:clamp(22px,3vw,32px)}.fact strong{display:block;line-height:1.25}
+.detail-columns{gap:clamp(34px,6vw,70px)}.detail-columns article,.detail-columns aside{min-width:0}.policy-card,.route-evidence{padding:clamp(24px,4vw,34px)}
+@media(max-width:800px){.hero:before{background-position:0 0,0 0,65% center}.hero h1{font-size:clamp(25px,7.25vw,50px);max-width:calc(100vw - 30px)}.feature-card{padding-inline:0}.feature-info{padding-right:0}.section-head{gap:18px}.race-row,.race-row:hover{padding:24px 16px}.fact-grid{grid-template-columns:1fr 1fr}.detail-columns{grid-template-columns:1fr}.tool-row,.filters{padding-inline:14px}}
+@media(max-width:480px){.fact-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(23px,7.2vw,35px)}.search-wrap{width:100%}.search-wrap a{padding-inline:12px}.moment-card{padding:22px}.policy-card,.route-evidence{padding:24px}}
