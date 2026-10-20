@@ -98,3 +98,16 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
 .hero-photo{display:block;width:100%;height:auto;background:#d9d7d0}
 .hero.shell{padding-top:52px}.hero:before{display:none}
 @media(max-width:800px){.hero.shell{min-height:0;padding-top:42px;padding-bottom:54px}.hero h1{max-width:calc(100vw - 30px);padding:18px}.feature-card>div:first-child,.moment-head,.section-head{padding:22px}.moment-head,.section-head{align-items:flex-start}.status-legend{padding:16px}.status-legend>strong{width:100%}}
+
+/* Full background hero with a seamless title treatment and quieter labels. */
+.hero-photo{display:none}
+.hero.shell{min-height:720px;padding:78px max(24px,calc((100vw - 1180px)/2)) 60px;background:#d9d7d0}
+.hero:before{display:block;inset:0;height:auto;background-image:linear-gradient(90deg,#f0eee8f8 0%,#f0eee8e5 31%,#f0eee875 54%,transparent 73%),linear-gradient(0deg,#f0eee83d,transparent 55%),url('/images/runners-hero.png');background-size:100% 100%,100% 100%,contain;background-position:0 0,0 0,center;background-repeat:no-repeat;filter:saturate(.78) contrast(.98)}
+.hero h1{max-width:min(720px,calc(100vw - 48px));padding:0;background:transparent;border:0;box-shadow:none;text-shadow:0 1px 0 #f0eee8}
+.status-legend{background:transparent;border:0;border-top:1px solid #c7c4bb;border-bottom:1px solid #c7c4bb;padding:15px 0}
+.status-legend>span,.status{background:transparent!important;border:0!important;padding:5px 7px}
+.legend-open,.status.open{color:#557461}.legend-open i,.status.open i{background:#6e8b76}
+.legend-closed,.status.closed{color:#9a5e57}.legend-closed i,.status.closed i{background:#b07168}
+.legend-tba,.status.verify,.status.opening-soon{color:#927d3f}.legend-tba i,.status.verify i,.status.opening-soon i{background:#b49c51}
+.tier.major{color:#45375f!important;background:#ddd7e8!important;border-color:#9d91b2!important;font-weight:750!important}
+@media(max-width:800px){.hero.shell{min-height:680px;padding:56px 20px 50px}.hero:before{background-size:100% 100%,100% 100%,contain;background-position:center}.hero h1{padding:0;max-width:calc(100vw - 40px);font-size:clamp(45px,11vw,66px)}.status-legend{padding:14px 0}}
