@@ -111,3 +111,5 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
 .legend-tba,.status.verify,.status.opening-soon{color:#927d3f}.legend-tba i,.status.verify i,.status.opening-soon i{background:#b49c51}
 .tier.major{color:#45375f!important;background:#ddd7e8!important;border-color:#9d91b2!important;font-weight:750!important}
 @media(max-width:800px){.hero.shell{min-height:680px;padding:56px 20px 50px}.hero:before{background-size:100% 100%,100% 100%,contain;background-position:center}.hero h1{padding:0;max-width:calc(100vw - 40px);font-size:clamp(45px,11vw,66px)}.status-legend{padding:14px 0}}
+
+/* deployment refresh: 2026-10-20 hero and status styling */
