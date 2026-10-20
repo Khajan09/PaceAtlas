@@ -19,4 +19,4 @@
 @media(max-width:800px){.nav.shell{background:#f0eee8}.hero.shell{min-height:650px;padding-top:72px}.hero h1{font-size:clamp(54px,15vw,80px)}.feature-card h2{font-size:56px}.moment-head h2{font-size:40px}.race-row{padding-inline:8px}.race-row:hover{padding-inline:8px}}
 @media(max-width:480px){.hero.shell{min-height:690px}.hero h1{font-size:53px}.search-wrap{box-shadow:none}.feature-card h2{font-size:48px}.section-head h2{font-size:48px}}
 
-.hero:before{background-position:0 0,0 0,68% center}
+.hero:before{background-position:0 0,0 0,68% center;background-size:100% 100%,100% 100%,cover;background-repeat:no-repeat}
