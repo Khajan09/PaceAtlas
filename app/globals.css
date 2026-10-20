@@ -124,3 +124,7 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
 .hero:before{display:block!important;content:''!important;position:absolute!important;inset:0!important;z-index:1!important;background:linear-gradient(90deg,#f0eee8ed 0%,#f0eee8b8 29%,#f0eee832 54%,transparent 70%),linear-gradient(180deg,transparent 48%,#f0eee8 78%)!important;animation:none!important}
 .hero>*:not(.hero-photo){position:relative!important;z-index:2!important}
 .hero:after{z-index:3!important}
+
+/* Keep the photograph unobstructed; fade the image itself into the neutral canvas. */
+.hero-photo{-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 100%)!important;mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 100%)!important}
+.hero:before{display:none!important}
