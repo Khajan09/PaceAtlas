@@ -128,3 +128,7 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
 /* Keep the photograph unobstructed; fade the image itself into the neutral canvas. */
 .hero-photo{-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 100%)!important;mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 100%)!important}
 .hero:before{display:none!important}
+
+/* Place the photographic background above the hero canvas and below all content. */
+.hero-photo{z-index:1!important}
+.hero>*:not(.hero-photo){z-index:2!important}
