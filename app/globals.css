@@ -183,3 +183,23 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
   .hero:before{background-position:92% 10%!important;background-size:220px!important;opacity:.09!important}
   .feature-card>div:first-child,.moment-head,.section-head{padding-left:0!important;padding-right:0!important}
 }
+
+/* 2026-10-20 unified sans-serif typography. */
+:root{--site-sans:var(--font-geist-sans),Inter,"Helvetica Neue",Arial,sans-serif}
+html,body,button,input,select,textarea,
+h1,h2,h3,h4,h5,h6,
+.brand,.brand-mark,.nav-links,.save-link,
+.hero h1,.hero h1 em,.hero-copy,.eyebrow,.kicker,
+.feature-card h2,.feature-card h2 span,.feature-info,.date-row strong,
+.moment-head h2,.moment-card strong,.moment-card small,
+.section-head h2,.section-head h2 em,.section-head p,
+.race-name h3,.country-code,.tier,.cell,.status,.race-link,
+.detail-hero h1,.detail-hero p,.detail-columns h2,.detail-columns p,
+.fact strong,.policy-card strong,.route-evidence>strong,
+.quick-stats strong,.quick-stats span,.footer-inner strong,.footer-inner span{
+  font-family:var(--site-sans)!important;
+}
+.hero h1,.hero h1 em{font-style:normal!important;font-weight:650!important;letter-spacing:-.055em!important}
+.hero h1 em{font-weight:700!important}
+.feature-card h2,.feature-card h2 span,.moment-head h2,.section-head h2,.section-head h2 em,.detail-hero h1,.detail-columns h2{font-style:normal!important;font-weight:650!important;letter-spacing:-.045em!important}
+.race-name h3,.moment-card strong{font-style:normal!important;font-weight:650!important;letter-spacing:-.025em!important}
