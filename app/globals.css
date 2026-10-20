@@ -76,9 +76,10 @@ h1,h2,h3,.race-name h3,.moment-card strong,.fact strong,.route-evidence>strong,.
 /* deployment bundle includes performance hero v4 */
 
 
-/* Single handwritten voice + right-to-left mountain run */
-body,button,input,select,textarea,a,p,span,strong,small,label,h1,h2,h3{font-family:var(--hand)!important}
-.hero:before{background-image:linear-gradient(90deg,#f4f0e8f8 0%,#f4f0e8e8 34%,#f4f0e83b 61%,transparent 78%),linear-gradient(0deg,#1718141f,transparent 58%),url('/images/runners-hero-v5.png');background-position:0 0,0 0,58% center}
-.nav-links,.save-link,.eyebrow,.kicker,.feature-label,.table-head,.cell,.status,.map-note{letter-spacing:.045em}
+/* Original editorial typography; cursive is reserved for the hero title. */
+body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!important}
+.hero h1,.hero h1 em{font-family:var(--hand)!important;font-weight:500}
+.hero:before{background-image:linear-gradient(90deg,#f4f0e8f8 0%,#f4f0e8e8 34%,#f4f0e83b 61%,transparent 78%),linear-gradient(0deg,#1718141f,transparent 58%),url('/images/runners-hero.png');background-position:0 0,0 0,68% center}
+.nav-links,.save-link,.eyebrow,.kicker,.feature-label,.table-head,.cell,.status,.map-note{letter-spacing:revert}
 
-/* deployment bundle includes mountain hero v5 */
+/* deployment bundle uses the original front-facing hero */
