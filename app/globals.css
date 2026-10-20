@@ -136,3 +136,6 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
 /* Paint the intact 1947x808 asset directly on the hero canvas. */
 .hero.shell{background-color:#f0eee8!important;background-image:url('/images/runners-hero.png')!important;background-size:100% auto!important;background-position:top center!important;background-repeat:no-repeat!important}
 .hero-photo{display:none!important}
+
+/* Fill the complete hero frame so the runners remain prominent at every viewport. */
+.hero.shell{background-size:cover!important;background-position:center center!important}
