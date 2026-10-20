@@ -113,3 +113,8 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
 @media(max-width:800px){.hero.shell{min-height:680px;padding:56px 20px 50px}.hero:before{background-size:100% 100%,100% 100%,contain;background-position:center}.hero h1{padding:0;max-width:calc(100vw - 40px);font-size:clamp(45px,11vw,66px)}.status-legend{padding:14px 0}}
 
 /* deployment refresh: 2026-10-20 hero and status styling */
+
+/* Final hero visibility refinement: show the complete source image and feather it into the page. */
+.hero.shell{background:#f0eee8!important}
+.hero:before{background-image:linear-gradient(90deg,#f0eee8ed 0%,#f0eee8b8 29%,#f0eee832 54%,transparent 70%),linear-gradient(180deg,transparent 58%,#f0eee8 100%),url('/images/runners-hero.png')!important;background-size:100% 100%,100% 100%,100% auto!important;background-position:center,center,top center!important;background-repeat:no-repeat!important;filter:saturate(.88) contrast(1)!important;opacity:1!important}
+@media(max-width:800px){.hero:before{background-image:linear-gradient(90deg,#f0eee8e8 0%,#f0eee8aa 31%,#f0eee81f 60%,transparent 76%),linear-gradient(180deg,transparent 52%,#f0eee8 100%),url('/images/runners-hero.png')!important;background-size:100% 100%,100% 100%,100% auto!important;background-position:center,center,top center!important}}
