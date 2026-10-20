@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-19T16:55:01.274Z",
+  "checkedAt": "2026-10-20T14:55:30.432Z",
   "sourceCount": 47,
-  "reachableCount": 39,
+  "reachableCount": 41,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
@@ -13,12 +13,6 @@
       "url": "https://www.schneiderelectricparismarathon.com/en",
       "status": 500,
       "reachable": false
-    },
-    {
-      "url": "https://www.nnmarathonrotterdam.org/",
-      "status": 0,
-      "reachable": false,
-      "error": "fetch failed"
     },
     {
       "url": "https://www.casablanca-marathon.com/",
@@ -40,12 +34,6 @@
     },
     {
       "url": "https://www.42kpoa.com.br/",
-      "status": 0,
-      "reachable": false,
-      "error": "fetch failed"
-    },
-    {
-      "url": "https://www.nairobimarathon.com/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
