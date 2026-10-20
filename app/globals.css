@@ -74,3 +74,9 @@ h1,h2,h3,.race-name h3,.moment-card strong,.fact strong,.route-evidence>strong,.
 @media(max-width:480px){.fact-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(23px,7.2vw,35px)}.search-wrap{width:100%}.search-wrap a{padding-inline:12px}.moment-card{padding:22px}.policy-card,.route-evidence{padding:24px}}
 
 /* deployment bundle includes performance hero v4 */
+
+
+/* Single handwritten voice + right-to-left mountain run */
+body,button,input,select,textarea,a,p,span,strong,small,label,h1,h2,h3{font-family:var(--hand)!important}
+.hero:before{background-image:linear-gradient(90deg,#f4f0e8f8 0%,#f4f0e8e8 34%,#f4f0e83b 61%,transparent 78%),linear-gradient(0deg,#1718141f,transparent 58%),url('/images/runners-hero-v5.png');background-position:0 0,0 0,58% center}
+.nav-links,.save-link,.eyebrow,.kicker,.feature-label,.table-head,.cell,.status,.map-note{letter-spacing:.045em}
