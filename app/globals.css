@@ -34,3 +34,20 @@
 .race-name h3{letter-spacing:-.025em}
 .kicker,.eyebrow,.feature-label{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif}
 @media(max-width:800px){.hero:before{background-position:0 0,0 0,62% center}.hero h1{font-size:clamp(52px,13vw,72px)}}
+
+
+/* Bright city run + unified hand-drawn identity */
+h1,h2,h3,.brand{font-family:var(--hand)}
+.brand{font-weight:500}.brand-mark{font-size:0;background:currentColor;mask:url('/images/running-mascot.svg') center/82% no-repeat;-webkit-mask:url('/images/running-mascot.svg') center/82% no-repeat;border:0!important;border-radius:0}
+.hero.shell{color:var(--ink);background:#f4f0e8}
+.hero:before{background-image:linear-gradient(90deg,#f4f0e8f7 0%,#f4f0e8df 36%,#f4f0e84d 65%,transparent 79%),linear-gradient(0deg,#f4f0e829,transparent 55%),url('/images/runners-hero-v3.png');background-position:0 0,0 0,58% center;filter:saturate(.86) contrast(.97);opacity:1}
+.hero .eyebrow{color:var(--ink);border-color:#1b1a1860}.hero .eyebrow span{color:#a84d3f}
+.hero h1{max-width:none;width:max-content;font-size:clamp(30px,7.15vw,100px);line-height:.98;white-space:nowrap;color:var(--ink)}
+.hero h1 em{color:#a84d3f}
+.hero-copy{color:#454740}.quick-stats strong{color:var(--ink)}.quick-stats span{color:#5f625b}.quick-stats div{border-color:#1b1a1840}
+.feature-band,.directory,.race-moments{position:relative;isolation:isolate}
+.feature-band:after,.directory:before,.race-moments:before{content:'';position:absolute;z-index:-1;background:currentColor;mask:url('/images/running-mascot.svg') center/contain no-repeat;-webkit-mask:url('/images/running-mascot.svg') center/contain no-repeat;pointer-events:none}
+.feature-band:after{width:220px;height:220px;right:3vw;top:35px;color:#a84d3f;opacity:.11;transform:rotate(-7deg)}
+.race-moments:before{width:130px;height:130px;right:4vw;top:45px;color:#292c28;opacity:.07;transform:rotate(8deg)}
+.directory:before{width:170px;height:170px;left:-30px;top:40px;color:#a84d3f;opacity:.07;transform:rotate(-12deg)}
+@media(max-width:800px){.hero:before{background-position:0 0,0 0,66% center}.hero h1{font-size:clamp(27px,7.4vw,52px)}.feature-band:after{width:140px;height:140px;right:-25px}.directory:before{display:none}}
