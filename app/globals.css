@@ -139,3 +139,47 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
 
 /* Fill the complete hero frame so the runners remain prominent at every viewport. */
 .hero.shell{background-size:cover!important;background-position:center center!important}
+
+/* 2026-10-20 neutral hero fallback and unboxed editorial sections. */
+.hero.shell{
+  min-height:680px!important;
+  color:#1b1a18!important;
+  background-color:#e8e4da!important;
+  background-image:radial-gradient(circle at 82% 18%,rgba(178,76,59,.12),transparent 24%),linear-gradient(135deg,#f3f0e9 0%,#dfdbd1 100%)!important;
+  background-size:cover!important;
+  background-position:center!important;
+}
+.hero-photo{display:none!important}
+.hero:before{
+  display:block!important;
+  content:''!important;
+  position:absolute!important;
+  inset:0!important;
+  background:transparent url('/images/running-mascot.svg') no-repeat 88% 18%/clamp(220px,25vw,390px)!important;
+  opacity:.11!important;
+  filter:none!important;
+  animation:none!important;
+  z-index:0!important;
+}
+.hero>*:not(.hero-photo){position:relative!important;z-index:2!important}
+.hero .eyebrow{color:#1b1a18!important;border-color:#1b1a185c!important}
+.hero h1{color:#1b1a18!important;text-shadow:none!important;background:transparent!important;border:0!important;box-shadow:none!important}
+.hero-copy{color:#4f504b!important}
+.quick-stats strong{color:#1b1a18!important}
+.quick-stats span{color:#666860!important}
+.quick-stats div{border-color:#aaa79f!important}
+.feature-card,.feature-card>div:first-child,.moment-head,.section-head{
+  background:transparent!important;
+  border:0!important;
+  outline:0!important;
+  box-shadow:none!important;
+}
+.feature-card>div:first-child{padding:0!important}
+.moment-head{padding:0 0 20px!important}
+.section-head{padding:0 0 28px!important}
+.feature-band{background:#dedbd2!important}
+@media(max-width:800px){
+  .hero.shell{min-height:640px!important;padding:64px 20px 48px!important}
+  .hero:before{background-position:92% 10%!important;background-size:220px!important;opacity:.09!important}
+  .feature-card>div:first-child,.moment-head,.section-head{padding-left:0!important;padding-right:0!important}
+}
