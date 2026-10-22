@@ -1,13 +1,8 @@
 {
-  "checkedAt": "2026-10-21T15:02:00.686Z",
+  "checkedAt": "2026-10-22T15:01:49.286Z",
   "sourceCount": 47,
-  "reachableCount": 40,
+  "reachableCount": 41,
   "unavailable": [
-    {
-      "url": "https://www.tcsamsterdammarathon.eu/",
-      "status": 503,
-      "reachable": false
-    },
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
       "status": 0,
