@@ -1,16 +1,10 @@
 {
-  "checkedAt": "2026-10-24T13:56:51.295Z",
+  "checkedAt": "2026-10-25T14:15:15.350Z",
   "sourceCount": 47,
-  "reachableCount": 40,
+  "reachableCount": 41,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
-      "status": 0,
-      "reachable": false,
-      "error": "fetch failed"
-    },
-    {
-      "url": "https://www.maratonadoporto.com/en/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
