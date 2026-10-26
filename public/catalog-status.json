@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-25T14:15:15.350Z",
+  "checkedAt": "2026-10-26T16:42:43.578Z",
   "sourceCount": 47,
-  "reachableCount": 41,
+  "reachableCount": 40,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
@@ -34,6 +34,12 @@
     },
     {
       "url": "https://www.42kpoa.com.br/",
+      "status": 0,
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://www.nairobimarathon.com/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
