@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-28T00:18:31.665Z",
-  "sourceCount": 67,
-  "reachableCount": 61,
+  "checkedAt": "2026-10-28T00:24:20.686Z",
+  "sourceCount": 79,
+  "reachableCount": 71,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
@@ -34,6 +34,18 @@
     },
     {
       "url": "https://www.42kpoa.com.br/",
+      "status": 0,
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://maraton.cdmx.gob.mx/",
+      "status": 0,
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
