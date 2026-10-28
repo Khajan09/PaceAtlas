@@ -14,17 +14,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Endurance Atlas — Find Your Next Adventure',
+  title: 'Miles Ahead — Find Your Next Adventure',
   description: 'Discover road races, trail and mountain adventures, ultras, and official IRONMAN events worldwide.',
   metadataBase: new URL('https://paceatlas.khajansyadav.workers.dev'),
   openGraph: {
-    title: 'Endurance Atlas — Find Your Next Adventure',
+    title: 'Miles Ahead — Find Your Next Adventure',
     description: 'Explore endurance events by activity, date, registration status, geography, list, and map.',
     images: ['/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Endurance Atlas — Find Your Next Adventure',
+    title: 'Miles Ahead — Find Your Next Adventure',
     description: 'Explore endurance events by activity, date, registration status, geography, list, and map.',
     images: ['/og.png'],
   },
