@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-28T00:34:36.328Z",
+  "checkedAt": "2026-10-28T16:34:46.461Z",
   "sourceCount": 83,
-  "reachableCount": 75,
+  "reachableCount": 74,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
@@ -40,6 +40,12 @@
     },
     {
       "url": "https://maraton.cdmx.gob.mx/",
+      "status": 0,
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://singaporeinternationalmarathon.com/events/byd-marathon/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
