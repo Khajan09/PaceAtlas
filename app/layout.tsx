@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  applicationName: 'Miles Ahead',
   title: 'Miles Ahead — Find Your Next Adventure',
   description: 'Discover road races, trail and mountain adventures, ultras, and official IRONMAN events worldwide.',
   metadataBase: new URL('https://paceatlas.khajansyadav.workers.dev'),
