@@ -244,7 +244,7 @@ html,body,button,input,select,textarea{font-family:var(--site-sans)!important;fo
 .hero h1,.hero h1 em{font-family:var(--hand)!important;font-style:normal!important;font-weight:500!important;letter-spacing:-.045em!important}
 .hero h1 em{color:#a84d3f!important;text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:10px}
 
-/* Endurance Atlas activity-first system */
+/* Miles Ahead activity-first system */
 :root{--adventure-blue:#315d66;--adventure-rust:#a95442;--adventure-gold:#c49a46;--adventure-moss:#4f6954}
 .brand-mark{background:linear-gradient(135deg,var(--adventure-rust),var(--adventure-moss))!important;mask:none!important;-webkit-mask:none!important;color:#fff!important;border-radius:50%!important;font-size:9px!important;font-weight:800!important;letter-spacing:-.04em!important}
 .hero.shell{min-height:700px!important;background-image:radial-gradient(circle at 82% 22%,rgba(49,93,102,.2),transparent 22%),radial-gradient(circle at 69% 70%,rgba(169,84,66,.14),transparent 28%),linear-gradient(140deg,#f5f1e8 0%,#dedfd7 100%)!important;overflow:hidden}
