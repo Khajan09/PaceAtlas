@@ -14,18 +14,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Pace Atlas — Find Your Next Marathon',
-  description: 'Discover upcoming city marathons and compare race dates, registration deadlines, and entry status.',
-  metadataBase: new URL('https://pace-atlas-marathons.khajan-y.chatgpt.site'),
+  title: 'Endurance Atlas — Find Your Next Adventure',
+  description: 'Discover road races, trail and mountain adventures, ultras, and official IRONMAN events worldwide.',
+  metadataBase: new URL('https://paceatlas.khajansyadav.workers.dev'),
   openGraph: {
-    title: 'Pace Atlas — Find Your Next Marathon',
-    description: 'Discover upcoming city marathons and compare race dates, registration deadlines, and entry status.',
+    title: 'Endurance Atlas — Find Your Next Adventure',
+    description: 'Explore endurance events by activity, date, registration status, geography, list, and map.',
     images: ['/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pace Atlas — Find Your Next Marathon',
-    description: 'Discover upcoming city marathons and compare race dates, registration deadlines, and entry status.',
+    title: 'Endurance Atlas — Find Your Next Adventure',
+    description: 'Explore endurance events by activity, date, registration status, geography, list, and map.',
     images: ['/og.png'],
   },
 };
