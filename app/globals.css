@@ -184,6 +184,27 @@ body,body *{font-family:var(--font-geist-sans),Helvetica,Arial,sans-serif!import
   .feature-card>div:first-child,.moment-head,.section-head{padding-left:0!important;padding-right:0!important}
 }
 
+/* Race discipline selector */
+.discipline-filter{margin:34px 0 22px;background:#ebe8e0;padding:22px;border-radius:18px}
+.discipline-intro{display:flex;align-items:center;gap:16px;margin-bottom:16px}
+.discipline-intro>span{font-size:10px;font-weight:800;letter-spacing:.16em;color:#a84d3f}
+.discipline-intro>strong{font-size:15px;font-weight:560}
+.discipline-intro>button{margin-left:auto;border:0;border-bottom:1px solid #777a72;background:transparent;padding:4px 0;color:#555851;font-size:11px;cursor:pointer}
+.discipline-options{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.discipline-options>button{position:relative;min-height:146px;padding:20px;text-align:left;border:1px solid #cbc8bf;border-radius:14px;background:#f7f5ef;color:#292c28;cursor:pointer;transition:transform .2s ease,background .2s ease,border-color .2s ease}
+.discipline-options>button:hover{transform:translateY(-2px);border-color:#8b8c84}
+.discipline-options>button.active{background:#292c28;color:#fff;border-color:#292c28}
+.discipline-check{position:absolute;right:16px;top:16px;width:25px;height:25px;display:grid;place-items:center;border:1px solid currentColor;border-radius:50%;font-size:12px}
+.discipline-options strong{display:block;max-width:80%;font-size:22px;font-weight:560;letter-spacing:-.03em}
+.discipline-options small{display:block;min-height:34px;margin-top:8px;color:#73776f;font-size:11px;line-height:1.45}
+.discipline-options .active small{color:#c8cac4}
+.discipline-options b{display:block;margin-top:12px;color:#a84d3f;font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+.discipline-options .active b{color:#e5a092}
+.race-type-tags{display:flex;gap:5px;flex-wrap:wrap;margin:6px 0 7px}
+.race-type-tags span{padding:3px 7px;border-radius:999px;background:#e1ded6;color:#5b5e58;font-size:8px;font-weight:750;letter-spacing:.08em;text-transform:uppercase}
+@media(max-width:900px){.discipline-options{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.discipline-filter{padding:14px;margin-inline:0}.discipline-intro{align-items:flex-start;flex-direction:column;gap:6px}.discipline-intro>button{margin:4px 0 0}.discipline-options{grid-template-columns:1fr}.discipline-options>button{min-height:126px}.discipline-options small{min-height:0}}
+
 /* 2026-10-20 unified sans-serif typography. */
 :root{--site-sans:var(--font-geist-sans),Inter,"Helvetica Neue",Arial,sans-serif}
 html,body,button,input,select,textarea,
