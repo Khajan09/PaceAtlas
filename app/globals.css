@@ -339,16 +339,21 @@ body{background:#fff!important}.activity-hub,.race-moments,.directory{background
   .status-legend>span,.status{padding:5px 4px;font-size:11px}
 
   .race-table{gap:10px;background:transparent}
-  .race-row,.race-row:hover{position:relative;display:grid;grid-template-columns:1fr auto;gap:14px 10px;min-height:0;padding:20px 16px;background:#f8f6f1;border:1px solid #d8d5cd;transform:none}
+  .race-row,.race-row:hover{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px;min-height:0;padding:18px 16px 14px;background:#f8f6f1;border:1px solid #d8d5cd;transform:none}
   .race-name{grid-column:1/-1;align-items:flex-start;gap:10px;padding-right:36px}
   .race-name>div{min-width:0}
-  .race-name h3{display:flex!important;align-items:center;flex-wrap:wrap;gap:6px;font-size:25px;line-height:1.08}
-  .race-name p{white-space:normal;overflow:visible;line-height:1.45}
-  .race-row .cell,.race-row>div:nth-child(4){grid-column:1/-1;padding:0!important}
-  .race-row .cell{display:grid;grid-template-columns:110px 1fr;align-items:start;gap:8px}
-  .race-row .cell:before{margin:1px 0 0}
-  .policy-cell>span,.policy-cell>a{grid-column:2}
-  .race-row>div:nth-child(4):before{content:'Registration status';display:block;margin-bottom:7px;color:#949a96;font-size:8px;text-transform:uppercase;letter-spacing:.1em}
+  .race-name .num{display:none}
+  .race-name h3{display:flex!important;align-items:center;flex-wrap:wrap;gap:6px;font-size:24px;line-height:1.08}
+  .race-name p{white-space:normal;overflow:visible;font-size:11px;line-height:1.4}
+  .country-code{width:34px;height:34px}
+  .race-row .cell{grid-column:auto;display:block;min-width:0;margin-top:15px;padding:13px 0 0!important;border-top:1px solid #d8d5cd}
+  .race-row .cell:before{margin:0 0 7px;line-height:1.3}
+  .race-row .cell strong{font-size:14px;line-height:1.35;overflow-wrap:anywhere}
+  .race-row .cell>span{white-space:normal;overflow:visible}
+  .policy-cell>a{display:inline-block;margin-top:8px;font-size:10px;font-weight:600;border-bottom:1px solid #8f918a}
+  .policy-cell .transfer-tag{margin-top:7px}
+  .race-row>div:nth-child(4){grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:13px;padding:12px 0 0!important;border-top:1px solid #d8d5cd}
+  .race-row>div:nth-child(4):before{content:'Registration status';display:block;margin:0;color:#949a96;font-size:8px;text-transform:uppercase;letter-spacing:.1em}
   .race-link{position:absolute;right:15px;top:18px;width:32px;height:32px}
   .map-shell{height:430px;margin-top:14px}
   .map-note{left:10px;bottom:10px;max-width:calc(100% - 20px);padding:9px 11px}
@@ -386,7 +391,7 @@ body{background:#fff!important}.activity-hub,.race-moments,.directory{background
   .moment-head h2{font-size:35px}
   .date-row{grid-template-columns:1fr}
   .region-primary-row{align-items:flex-start}
-  .race-row .cell{grid-template-columns:92px 1fr}
+  .race-row,.race-row:hover{gap:0 12px;padding-inline:14px}
   .fact-grid{grid-template-columns:1fr}
   .fact,.fact:nth-child(2n){border-right:0}
 }
