@@ -1,43 +1,24 @@
 {
-  "checkedAt": "2026-10-29T11:22:08.048Z",
+  "checkedAt": "2026-10-29T16:54:21.394Z",
   "sourceCount": 83,
-  "reachableCount": 71,
+  "reachableCount": 74,
   "unavailable": [
     {
-      "url": "https://www.newdelhimarathon.com/?RL=1",
+      "url": "https://www.nyrr.org/tcsnycmarathon",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.dubaimarathon.org/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.marathon.tokyo/en/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.mccourtfoundation.org/pages/la-marathon",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://en.seoul-marathon.com/83",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     },
     {
       "url": "https://www.schneiderelectricparismarathon.com/en",
+      "status": 500,
+      "reachable": false
+    },
+    {
+      "url": "https://www.nnmarathonrotterdam.org/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     },
     {
       "url": "https://www.casablanca-marathon.com/",
@@ -49,7 +30,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     },
     {
       "url": "https://www.marathonderabat.com/",
