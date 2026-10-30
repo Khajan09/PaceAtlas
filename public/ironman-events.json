@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-10-29T16:53:15.518Z",
+  "checkedAt": "2026-10-30T11:24:39.245Z",
   "events": [
     {
       "slug": "ironman-70-3-goa",
@@ -70,8 +70,8 @@
       "region": "Europe",
       "name": "IRONMAN 70.3 Türkiye",
       "date": "2026-11-01",
-      "registration": "Registration Closed",
-      "status": "Closed",
+      "registration": "Race Weekend",
+      "status": "Verify",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-turkey",
@@ -2380,8 +2380,8 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Lake George",
       "date": "2027-06-13",
-      "registration": "Flex90 Eligible",
-      "status": "Verify",
+      "registration": "General Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-lake-george",
@@ -3153,6 +3153,36 @@
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2025-01/Screenshot%202024-07-09%20115946%20%281%29.png?h=21441510&itok=PVEIMIcE"
     },
     {
+      "slug": "ironman-70-3-calgary",
+      "city": "Calgary",
+      "country": "Canada",
+      "code": "CA",
+      "region": "Americas",
+      "name": "IRONMAN 70.3 Calgary",
+      "date": "2027-07-25",
+      "registration": "Registration Opening Soon",
+      "status": "Verify",
+      "terrain": "Swim · bike · run",
+      "tier": "Iconic",
+      "link": "https://www.ironman.com/races/im703-calgary",
+      "lat": 51.04532,
+      "lon": -114.0581,
+      "distances": [
+        "1.9 km swim",
+        "90 km bike",
+        "21.1 km run"
+      ],
+      "types": [
+        "IRONMAN 70.3"
+      ],
+      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
+      "ticketCost": "See official IRONMAN registration pricing",
+      "transferPolicy": "Verify",
+      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
+      "sourceUrl": "https://www.ironman.com/races/im703-calgary",
+      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2025-11/IRONMAN%2070.3%20Calgary%20Header%20Image%20Cochrane.jpg?h=b0c51a6c&itok=Endc687u"
+    },
+    {
       "slug": "ironman-70-3-desaru-coast",
       "city": "Desaru",
       "country": "Malaysia",
@@ -3490,7 +3520,7 @@
       "region": "Americas",
       "name": "IRONMAN Montana",
       "date": "2027-08-15",
-      "registration": "Registration Opening Soon",
+      "registration": "Flex90 Eligible",
       "status": "Verify",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
@@ -3520,7 +3550,7 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Utah",
       "date": "2027-08-21",
-      "registration": "Registration Opening Soon",
+      "registration": "Flex90 Eligible",
       "status": "Verify",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
@@ -3970,8 +4000,8 @@
       "region": "Europe",
       "name": "IRONMAN France",
       "date": "2027-09-12",
-      "registration": "Registration Now Open",
-      "status": "Open",
+      "registration": "General Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im-france",
@@ -4360,8 +4390,8 @@
       "region": "Europe",
       "name": "IRONMAN Calella-Barcelona",
       "date": "2027-10-03",
-      "registration": "Flex90 Eligible",
-      "status": "Verify",
+      "registration": "Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im-barcelona",
@@ -4591,36 +4621,6 @@
       "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
       "sourceUrl": "https://www.ironman.com/races/im-cascais",
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/IM%20Cascais%20Portugal_eventcard_swim.JPG?h=9abbe66e&itok=REaUyj8Z"
-    },
-    {
-      "slug": "ironman-70-3-florianopolis",
-      "city": "SC",
-      "country": "Brazil",
-      "code": "BR",
-      "region": "Americas",
-      "name": "IRONMAN 70.3 Florianopolis",
-      "date": "2027-10-24",
-      "registration": "Registration Sold Out",
-      "status": "Closed",
-      "terrain": "Swim · bike · run",
-      "tier": "Iconic",
-      "link": "https://www.ironman.com/races/im703-florianopolis",
-      "lat": -27.5969,
-      "lon": -48.54945,
-      "distances": [
-        "1.9 km swim",
-        "90 km bike",
-        "21.1 km run"
-      ],
-      "types": [
-        "IRONMAN 70.3"
-      ],
-      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
-      "ticketCost": "See official IRONMAN registration pricing",
-      "transferPolicy": "Verify",
-      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
-      "sourceUrl": "https://www.ironman.com/races/im703-florianopolis",
-      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/70.3%20Florianopolis%20Slider%20Swim%20Exit%20II.jpg?h=b0c51a6c&itok=BvHq-DzF"
     },
     {
       "slug": "ironman-california",
