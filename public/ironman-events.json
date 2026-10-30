@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-10-30T11:24:39.245Z",
+  "checkedAt": "2026-10-30T16:41:43.353Z",
   "events": [
     {
       "slug": "ironman-70-3-goa",
@@ -2380,7 +2380,7 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Lake George",
       "date": "2027-06-13",
-      "registration": "General Registration Sold Out",
+      "registration": "Registration Sold Out",
       "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
