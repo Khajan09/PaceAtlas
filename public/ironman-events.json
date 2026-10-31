@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-10-30T16:41:43.353Z",
+  "checkedAt": "2026-10-31T10:19:57.559Z",
   "events": [
     {
       "slug": "ironman-70-3-goa",
@@ -3550,8 +3550,8 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Utah",
       "date": "2027-08-21",
-      "registration": "Flex90 Eligible",
-      "status": "Verify",
+      "registration": "General Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-utah",
