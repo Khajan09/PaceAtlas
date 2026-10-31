@@ -1,26 +1,8 @@
 {
-  "checkedAt": "2026-10-31T10:17:45.945Z",
+  "checkedAt": "2026-10-31T15:44:05.677Z",
   "sourceCount": 83,
-  "reachableCount": 72,
+  "reachableCount": 75,
   "unavailable": [
-    {
-      "url": "https://www.generali-berlin-marathon.com/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.beijing-marathon.com/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.tcsamsterdammarathon.eu/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
       "status": 0,
@@ -42,7 +24,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -66,7 +48,7 @@
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     }
   ]
 }
