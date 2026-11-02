@@ -1,14 +1,8 @@
 {
-  "checkedAt": "2026-11-02T11:36:14.003Z",
+  "checkedAt": "2026-11-02T20:15:59.538Z",
   "sourceCount": 83,
-  "reachableCount": 73,
+  "reachableCount": 76,
   "unavailable": [
-    {
-      "url": "https://www.nyrr.org/tcsnycmarathon",
-      "status": 0,
-      "reachable": false,
-      "error": "fetch failed"
-    },
     {
       "url": "https://www.schneiderelectricparismarathon.com/en",
       "status": 500,
@@ -48,19 +42,7 @@
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.grandraid-reunion.com/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://transgrancanaria.net/en/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     }
   ]
 }

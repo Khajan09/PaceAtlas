@@ -1,127 +1,7 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-01T11:01:35.998Z",
+  "checkedAt": "2026-11-02T20:15:06.985Z",
   "events": [
-    {
-      "slug": "ironman-70-3-goa",
-      "city": "Goa",
-      "country": "India",
-      "code": "IN",
-      "region": "Asia",
-      "name": "IRONMAN 70.3 Goa",
-      "date": "2026-11-01",
-      "registration": "Race Weekend",
-      "status": "Verify",
-      "terrain": "Swim · bike · run",
-      "tier": "Iconic",
-      "link": "https://www.ironman.com/races/im703-goa",
-      "lat": 15.2993,
-      "lon": 74.124,
-      "distances": [
-        "1.9 km swim",
-        "90 km bike",
-        "21.1 km run"
-      ],
-      "types": [
-        "IRONMAN 70.3"
-      ],
-      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
-      "ticketCost": "See official IRONMAN registration pricing",
-      "transferPolicy": "Verify",
-      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
-      "sourceUrl": "https://www.ironman.com/races/im703-goa",
-      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/im703goa_eventcard.jpg?h=d1cb525d&itok=lqqXKk1f"
-    },
-    {
-      "slug": "ironman-70-3-kenting",
-      "city": "Kenting",
-      "country": "Chinese Taipei",
-      "code": "TW",
-      "region": "Asia",
-      "name": "IRONMAN 70.3 Kenting",
-      "date": "2026-11-01",
-      "registration": "Race Weekend",
-      "status": "Verify",
-      "terrain": "Swim · bike · run",
-      "tier": "Iconic",
-      "link": "https://www.ironman.com/races/im703-kenting",
-      "lat": 21.9857,
-      "lon": 120.8132,
-      "distances": [
-        "1.9 km swim",
-        "90 km bike",
-        "21.1 km run"
-      ],
-      "types": [
-        "IRONMAN 70.3"
-      ],
-      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
-      "ticketCost": "See official IRONMAN registration pricing",
-      "transferPolicy": "Verify",
-      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
-      "sourceUrl": "https://www.ironman.com/races/im703-kenting",
-      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/IM70.3%20Kenting_eventcard_bike.jpg?h=c6980913&itok=lunzaTWE"
-    },
-    {
-      "slug": "ironman-70-3-turkiye",
-      "city": "Belek",
-      "country": "Türkiye",
-      "code": "TR",
-      "region": "Europe",
-      "name": "IRONMAN 70.3 Türkiye",
-      "date": "2026-11-01",
-      "registration": "Race Weekend",
-      "status": "Verify",
-      "terrain": "Swim · bike · run",
-      "tier": "Iconic",
-      "link": "https://www.ironman.com/races/im703-turkey",
-      "lat": 36.86278,
-      "lon": 31.05556,
-      "distances": [
-        "1.9 km swim",
-        "90 km bike",
-        "21.1 km run"
-      ],
-      "types": [
-        "IRONMAN 70.3"
-      ],
-      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
-      "ticketCost": "See official IRONMAN registration pricing",
-      "transferPolicy": "Verify",
-      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
-      "sourceUrl": "https://www.ironman.com/races/im703-turkey",
-      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-09/imturkiye_eventcard_image1.jpg?h=e9d32cb6&itok=Dplt0Qr9"
-    },
-    {
-      "slug": "ironman-san-juan",
-      "city": "San Juan",
-      "country": "Argentina",
-      "code": "AR",
-      "region": "Americas",
-      "name": "IRONMAN San Juan",
-      "date": "2026-11-01",
-      "registration": "Race Weekend",
-      "status": "Verify",
-      "terrain": "Swim · bike · run",
-      "tier": "Iconic",
-      "link": "https://www.ironman.com/races/im-san-juan",
-      "lat": -31.53866,
-      "lon": -68.5363,
-      "distances": [
-        "3.8 km swim",
-        "180 km bike",
-        "42.2 km run"
-      ],
-      "types": [
-        "IRONMAN"
-      ],
-      "route": "Official full-distance triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
-      "ticketCost": "See official IRONMAN registration pricing",
-      "transferPolicy": "Verify",
-      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
-      "sourceUrl": "https://www.ironman.com/races/im-san-juan",
-      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/COM_7415.jpg?h=3e43625b&itok=IY6v-meb"
-    },
     {
       "slug": "ironman-florida",
       "city": "Panama City Beach",
@@ -130,7 +10,7 @@
       "region": "Americas",
       "name": "IRONMAN Florida",
       "date": "2026-11-07",
-      "registration": "Registration Sold Out",
+      "registration": "Registration Closed",
       "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
@@ -670,7 +550,7 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Florida",
       "date": "2026-12-13",
-      "registration": "General Registration Sold Out",
+      "registration": "Registration Sold Out",
       "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
@@ -1090,8 +970,8 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Doha",
       "date": "2027-03-20",
-      "registration": "Registration Now Open",
-      "status": "Open",
+      "registration": "General Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-doha",
@@ -1960,7 +1840,7 @@
       "region": "Europe",
       "name": "IRONMAN 70.3 St. Pölten",
       "date": "2027-05-23",
-      "registration": "General Registration Sold Out",
+      "registration": "Registration Sold Out",
       "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
@@ -2800,8 +2680,8 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Asunción",
       "date": "2027-07-11",
-      "registration": "Registration Opening Soon",
-      "status": "Verify",
+      "registration": "Registration Now Open",
+      "status": "Open",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-asuncion",
@@ -4623,6 +4503,36 @@
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/IM%20Cascais%20Portugal_eventcard_swim.JPG?h=9abbe66e&itok=REaUyj8Z"
     },
     {
+      "slug": "ironman-70-3-florianopolis",
+      "city": "SC",
+      "country": "Brazil",
+      "code": "BR",
+      "region": "Americas",
+      "name": "IRONMAN 70.3 Florianopolis",
+      "date": "2027-10-24",
+      "registration": "Registration Sold Out",
+      "status": "Closed",
+      "terrain": "Swim · bike · run",
+      "tier": "Iconic",
+      "link": "https://www.ironman.com/races/im703-florianopolis",
+      "lat": -27.5969,
+      "lon": -48.54945,
+      "distances": [
+        "1.9 km swim",
+        "90 km bike",
+        "21.1 km run"
+      ],
+      "types": [
+        "IRONMAN 70.3"
+      ],
+      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
+      "ticketCost": "See official IRONMAN registration pricing",
+      "transferPolicy": "Verify",
+      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
+      "sourceUrl": "https://www.ironman.com/races/im703-florianopolis",
+      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/70.3%20Florianopolis%20Slider%20Swim%20Exit%20II.jpg?h=b0c51a6c&itok=BvHq-DzF"
+    },
+    {
       "slug": "ironman-california",
       "city": "Sacramento",
       "country": "United States",
@@ -4651,6 +4561,66 @@
       "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
       "sourceUrl": "https://www.ironman.com/races/im-california",
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/Card_IM_California_2024.jpg?h=e6e78363&itok=sLBrDnCe"
+    },
+    {
+      "slug": "ironman-70-3-malaga",
+      "city": "Malaga",
+      "country": "Spain",
+      "code": "ES",
+      "region": "Europe",
+      "name": "IRONMAN 70.3 Málaga",
+      "date": "2027-10-31",
+      "registration": "Registration Sold Out",
+      "status": "Closed",
+      "terrain": "Swim · bike · run",
+      "tier": "Iconic",
+      "link": "https://www.ironman.com/races/im703-malaga",
+      "lat": 36.71828,
+      "lon": -4.49047,
+      "distances": [
+        "1.9 km swim",
+        "90 km bike",
+        "21.1 km run"
+      ],
+      "types": [
+        "IRONMAN 70.3"
+      ],
+      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
+      "ticketCost": "See official IRONMAN registration pricing",
+      "transferPolicy": "Verify",
+      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
+      "sourceUrl": "https://www.ironman.com/races/im703-malaga",
+      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2025-11/IM_70.3_Malaga_Race_Card_Sea.jpg?h=c808648e&itok=Qr1Saaj9"
+    },
+    {
+      "slug": "ironman-70-3-waco",
+      "city": "Waco",
+      "country": "United States",
+      "code": "US",
+      "region": "Americas",
+      "name": "IRONMAN 70.3 Waco",
+      "date": "2027-11-14",
+      "registration": "Registration Opening Soon",
+      "status": "Verify",
+      "terrain": "Swim · bike · run",
+      "tier": "Iconic",
+      "link": "https://www.ironman.com/races/im703-waco",
+      "lat": 31.56011,
+      "lon": -97.18603,
+      "distances": [
+        "1.9 km swim",
+        "90 km bike",
+        "21.1 km run"
+      ],
+      "types": [
+        "IRONMAN 70.3"
+      ],
+      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
+      "ticketCost": "See official IRONMAN registration pricing",
+      "transferPolicy": "Verify",
+      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
+      "sourceUrl": "https://www.ironman.com/races/im703-waco",
+      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-09/Card_IM70.3_Waco.jpg?h=ddb57126&itok=LKEph-DH"
     },
     {
       "slug": "ironman-70-3-world-championship",
