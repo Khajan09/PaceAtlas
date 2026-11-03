@@ -1,54 +1,12 @@
 {
-  "checkedAt": "2026-11-03T11:32:02.207Z",
+  "checkedAt": "2026-11-03T17:43:56.555Z",
   "sourceCount": 83,
-  "reachableCount": 69,
+  "reachableCount": 76,
   "unavailable": [
-    {
-      "url": "https://www.nyrr.org/tcsnycmarathon",
-      "status": 0,
-      "reachable": false,
-      "error": "fetch failed"
-    },
     {
       "url": "https://www.schneiderelectricparismarathon.com/en",
       "status": 500,
       "reachable": false
-    },
-    {
-      "url": "https://copenhagenmarathon.dk/en/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://capetownmarathon.com/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.runottawa.ca/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://stockholmmarathon.se/eng/eng-lopare/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://maratonadorio.com.br/en",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://goldcoastmarathon.com.au/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
     },
     {
       "url": "https://www.casablanca-marathon.com/",
@@ -84,7 +42,7 @@
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     }
   ]
 }
