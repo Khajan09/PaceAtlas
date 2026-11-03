@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-02T20:15:06.985Z",
+  "checkedAt": "2026-11-03T11:32:07.307Z",
   "events": [
     {
       "slug": "ironman-florida",
@@ -1051,6 +1051,36 @@
       "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
       "sourceUrl": "https://www.ironman.com/races/im703-geelong",
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/card_im703_geelong_1_2024.jpg?h=c74750f6&itok=G-ise5ZU"
+    },
+    {
+      "slug": "ironman-70-3-ha-long-bay",
+      "city": "Ha Long Bay",
+      "country": "Vietnam",
+      "code": "VN",
+      "region": "Asia",
+      "name": "IRONMAN 70.3 Ha Long Bay",
+      "date": "2027-03-21",
+      "registration": "Registration Opening Soon",
+      "status": "Verify",
+      "terrain": "Swim · bike · run",
+      "tier": "Iconic",
+      "link": "https://www.ironman.com/races/im703-ha-long-bay",
+      "lat": 20.84361,
+      "lon": 107.06723,
+      "distances": [
+        "1.9 km swim",
+        "90 km bike",
+        "21.1 km run"
+      ],
+      "types": [
+        "IRONMAN 70.3"
+      ],
+      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
+      "ticketCost": "See official IRONMAN registration pricing",
+      "transferPolicy": "Verify",
+      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
+      "sourceUrl": "https://www.ironman.com/races/im703-ha-long-bay",
+      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2026-10/im703_Ha_Long_Bay_race_card.jpg?h=7df9d0f9&itok=9P2zCsYs"
     },
     {
       "slug": "ironman-70-3-oceanside",
@@ -4591,36 +4621,6 @@
       "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
       "sourceUrl": "https://www.ironman.com/races/im703-malaga",
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2025-11/IM_70.3_Malaga_Race_Card_Sea.jpg?h=c808648e&itok=Qr1Saaj9"
-    },
-    {
-      "slug": "ironman-70-3-waco",
-      "city": "Waco",
-      "country": "United States",
-      "code": "US",
-      "region": "Americas",
-      "name": "IRONMAN 70.3 Waco",
-      "date": "2027-11-14",
-      "registration": "Registration Opening Soon",
-      "status": "Verify",
-      "terrain": "Swim · bike · run",
-      "tier": "Iconic",
-      "link": "https://www.ironman.com/races/im703-waco",
-      "lat": 31.56011,
-      "lon": -97.18603,
-      "distances": [
-        "1.9 km swim",
-        "90 km bike",
-        "21.1 km run"
-      ],
-      "types": [
-        "IRONMAN 70.3"
-      ],
-      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
-      "ticketCost": "See official IRONMAN registration pricing",
-      "transferPolicy": "Verify",
-      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
-      "sourceUrl": "https://www.ironman.com/races/im703-waco",
-      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-09/Card_IM70.3_Waco.jpg?h=ddb57126&itok=LKEph-DH"
     },
     {
       "slug": "ironman-70-3-world-championship",
