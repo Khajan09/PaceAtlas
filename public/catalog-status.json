@@ -1,8 +1,55 @@
 {
-  "checkedAt": "2026-11-03T17:43:56.555Z",
+  "checkedAt": "2026-11-04T11:25:47.833Z",
   "sourceCount": 83,
-  "reachableCount": 76,
+  "reachableCount": 68,
   "unavailable": [
+    {
+      "url": "https://www.tcsamsterdammarathon.eu/",
+      "status": 503,
+      "reachable": false
+    },
+    {
+      "url": "https://www.nyrr.org/tcsnycmarathon",
+      "status": 0,
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://www.athensauthenticmarathon.gr/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.maratonadoporto.com/en/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.valenciaciudaddelrunning.com/en/marathon/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.honolulumarathon.org/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.chevronhoustonmarathon.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://tatamumbaimarathon.procam.in/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
     {
       "url": "https://www.schneiderelectricparismarathon.com/en",
       "status": 500,
@@ -18,7 +65,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -42,7 +89,7 @@
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     }
   ]
 }
