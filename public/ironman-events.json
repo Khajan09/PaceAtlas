@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-04T17:57:48.015Z",
+  "checkedAt": "2026-11-05T11:34:05.750Z",
   "events": [
     {
       "slug": "ironman-florida",
@@ -40,8 +40,8 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Campeche",
       "date": "2026-11-08",
-      "registration": "Registration Now Open",
-      "status": "Open",
+      "registration": "Registration Closed",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-campeche",
@@ -970,7 +970,7 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Doha",
       "date": "2027-03-20",
-      "registration": "General Registration Sold Out",
+      "registration": "Registration Sold Out",
       "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
@@ -4510,8 +4510,8 @@
       "region": "Europe",
       "name": "IRONMAN Portugal-Cascais",
       "date": "2027-10-23",
-      "registration": "Flex90 Eligible",
-      "status": "Verify",
+      "registration": "Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im-cascais",
