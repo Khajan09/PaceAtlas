@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-05T17:59:14.360Z",
+  "checkedAt": "2026-11-06T12:15:49.523Z",
   "events": [
     {
       "slug": "ironman-florida",
@@ -40,8 +40,8 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Campeche",
       "date": "2026-11-08",
-      "registration": "Registration Closed",
-      "status": "Closed",
+      "registration": "Race Weekend",
+      "status": "Verify",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-campeche",
@@ -70,8 +70,8 @@
       "region": "Oceania",
       "name": "IRONMAN 70.3 Melbourne",
       "date": "2026-11-08",
-      "registration": "Registration Sold Out",
-      "status": "Closed",
+      "registration": "Race Weekend",
+      "status": "Verify",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-melbourne",
