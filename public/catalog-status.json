@@ -1,22 +1,10 @@
 {
-  "checkedAt": "2026-11-07T11:16:45.015Z",
+  "checkedAt": "2026-11-08T12:43:15.873Z",
   "sourceCount": 83,
   "reachableCount": 72,
   "unavailable": [
     {
-      "url": "https://www.generali-berlin-marathon.com/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
       "url": "https://www.beijing-marathon.com/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.tcsamsterdammarathon.eu/",
       "status": 0,
       "reachable": false,
       "error": "This operation was aborted"
@@ -42,7 +30,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -51,16 +39,28 @@
       "error": "fetch failed"
     },
     {
+      "url": "https://durbanmarathon.co.za/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
       "url": "https://www.42kpoa.com.br/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
     },
     {
+      "url": "https://www.nairobimarathon.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
       "url": "https://maraton.cdmx.gob.mx/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "url": "https://www.shmarathon.com/",
