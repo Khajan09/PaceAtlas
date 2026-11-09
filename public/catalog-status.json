@@ -1,13 +1,31 @@
 {
-  "checkedAt": "2026-11-09T11:02:01.299Z",
+  "checkedAt": "2026-11-09T12:27:38.664Z",
   "sourceCount": 83,
-  "reachableCount": 75,
+  "reachableCount": 72,
   "unavailable": [
+    {
+      "url": "https://irishlifedublinmarathon.ie/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.frankfurt-marathon.com/en/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.venicemarathon.it/en/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "url": "https://www.schneiderelectricparismarathon.com/en",
@@ -24,7 +42,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -48,7 +66,7 @@
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     }
   ]
 }
