@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-09T20:39:50.860Z",
+  "checkedAt": "2026-11-10T11:20:34.745Z",
   "events": [
     {
       "slug": "ironman-70-3-phu-quoc",
@@ -10,8 +10,8 @@
       "region": "Asia",
       "name": "IRONMAN 70.3 Phu Quoc",
       "date": "2026-11-15",
-      "registration": "Registration Now Open",
-      "status": "Open",
+      "registration": "Registration Closed",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-phu-quoc",
