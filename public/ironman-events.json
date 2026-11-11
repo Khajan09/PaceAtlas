@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-11T11:59:53.767Z",
+  "checkedAt": "2026-11-11T17:52:41.695Z",
   "events": [
     {
       "slug": "ironman-70-3-phu-quoc",
@@ -730,11 +730,11 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Monterrey",
       "date": "2027-03-07",
-      "registration": "Registration Opening Soon",
-      "status": "Verify",
+      "registration": "Registration Now Open",
+      "status": "Open",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
-      "link": "https://www.ironman.com/races/im703-mont-tremblant-0",
+      "link": "https://www.ironman.com/races/im703-monterrey",
       "lat": 25.68661,
       "lon": -100.31612,
       "distances": [
@@ -749,7 +749,7 @@
       "ticketCost": "See official IRONMAN registration pricing",
       "transferPolicy": "Verify",
       "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
-      "sourceUrl": "https://www.ironman.com/races/im703-mont-tremblant-0",
+      "sourceUrl": "https://www.ironman.com/races/im703-monterrey",
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-09/70.3%20Monterrey%20Slider%20Swim%20Close%20Up%20Canal.jpg?h=b0c51a6c&itok=iK8VOi3F"
     },
     {

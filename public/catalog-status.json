@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-11T11:55:15.000Z",
+  "checkedAt": "2026-11-11T17:53:32.237Z",
   "sourceCount": 83,
-  "reachableCount": 74,
+  "reachableCount": 75,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
@@ -24,7 +24,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -48,13 +48,7 @@
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://transgrancanaria.net/en/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     }
   ]
 }
