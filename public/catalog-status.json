@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10T17:40:51.658Z",
+  "checkedAt": "2026-11-11T11:55:15.000Z",
   "sourceCount": 83,
   "reachableCount": 74,
   "unavailable": [
@@ -24,7 +24,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -48,12 +48,13 @@
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
-      "url": "https://www.marinemarathon.com/",
-      "status": 500,
-      "reachable": false
+      "url": "https://transgrancanaria.net/en/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
     }
   ]
 }
