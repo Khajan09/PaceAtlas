@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-10T17:39:59.260Z",
+  "checkedAt": "2026-11-11T11:59:53.767Z",
   "events": [
     {
       "slug": "ironman-70-3-phu-quoc",
@@ -10,8 +10,8 @@
       "region": "Asia",
       "name": "IRONMAN 70.3 Phu Quoc",
       "date": "2026-11-15",
-      "registration": "Registration Closed",
-      "status": "Closed",
+      "registration": "Race Weekend",
+      "status": "Verify",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-phu-quoc",
@@ -520,8 +520,8 @@
       "region": "Africa",
       "name": "IRONMAN 70.3 Nelson Mandela Bay",
       "date": "2027-01-31",
-      "registration": "Flex90 Eligible",
-      "status": "Verify",
+      "registration": "Registration Now Open",
+      "status": "Open",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-nelson-mandela-bay",
@@ -721,6 +721,36 @@
       "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
       "sourceUrl": "https://www.ironman.com/races/im-new-zealand",
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/card_im_new_zealand_2_2024.jpg.jpg?h=c74750f6&itok=SwEKf3NH"
+    },
+    {
+      "slug": "ironman-70-3-monterrey",
+      "city": "Monterrey",
+      "country": "Mexico",
+      "code": "MX",
+      "region": "Americas",
+      "name": "IRONMAN 70.3 Monterrey",
+      "date": "2027-03-07",
+      "registration": "Registration Opening Soon",
+      "status": "Verify",
+      "terrain": "Swim · bike · run",
+      "tier": "Iconic",
+      "link": "https://www.ironman.com/races/im703-mont-tremblant-0",
+      "lat": 25.68661,
+      "lon": -100.31612,
+      "distances": [
+        "1.9 km swim",
+        "90 km bike",
+        "21.1 km run"
+      ],
+      "types": [
+        "IRONMAN 70.3"
+      ],
+      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
+      "ticketCost": "See official IRONMAN registration pricing",
+      "transferPolicy": "Verify",
+      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
+      "sourceUrl": "https://www.ironman.com/races/im703-mont-tremblant-0",
+      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-09/70.3%20Monterrey%20Slider%20Swim%20Close%20Up%20Canal.jpg?h=b0c51a6c&itok=iK8VOi3F"
     },
     {
       "slug": "ironman-70-3-punta-del-este",
@@ -1300,8 +1330,8 @@
       "region": "Africa",
       "name": "IRONMAN South Africa, Mossel Bay",
       "date": "2027-04-18",
-      "registration": "Flex90 Eligible",
-      "status": "Verify",
+      "registration": "Registration Now Open",
+      "status": "Open",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im-mossel-bay",
@@ -4480,8 +4510,8 @@
       "region": "Americas",
       "name": "IRONMAN California",
       "date": "2027-10-24",
-      "registration": "Flex90 Eligible",
-      "status": "Verify",
+      "registration": "General Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im-california",
