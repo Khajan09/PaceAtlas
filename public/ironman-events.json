@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-11T17:52:41.695Z",
+  "checkedAt": "2026-11-12T11:56:14.523Z",
   "events": [
     {
       "slug": "ironman-70-3-phu-quoc",
@@ -1450,7 +1450,7 @@
       "region": "Oceania",
       "name": "IRONMAN 70.3 Western Sydney",
       "date": "2027-05-02",
-      "registration": "General Registration Sold Out",
+      "registration": "Registration Sold Out",
       "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
@@ -1600,8 +1600,8 @@
       "region": "Europe",
       "name": "IRONMAN Lanzarote",
       "date": "2027-05-15",
-      "registration": "Registration Now Open",
-      "status": "Open",
+      "registration": "General Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im-lanzarote",
