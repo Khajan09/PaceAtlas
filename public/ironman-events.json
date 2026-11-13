@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-12T18:09:33.430Z",
+  "checkedAt": "2026-11-13T11:09:29.430Z",
   "events": [
     {
       "slug": "ironman-70-3-phu-quoc",
@@ -970,8 +970,8 @@
       "region": "Oceania",
       "name": "IRONMAN 70.3 Geelong",
       "date": "2027-03-21",
-      "registration": "Registration Now Open",
-      "status": "Open",
+      "registration": "General Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-geelong",
@@ -1600,7 +1600,7 @@
       "region": "Europe",
       "name": "IRONMAN Lanzarote",
       "date": "2027-05-15",
-      "registration": "General Registration Sold Out",
+      "registration": "Registration Sold Out",
       "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
@@ -3633,6 +3633,36 @@
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-09/703zell_eventcard_image1.jpg?h=c20304df&itok=Nwyn80vx"
     },
     {
+      "slug": "ironman-70-3-maastricht-limburg",
+      "city": "Maastricht",
+      "country": "Netherlands",
+      "code": "NL",
+      "region": "Europe",
+      "name": "IRONMAN 70.3 Maastricht-Limburg",
+      "date": "2027-09-05",
+      "registration": "Registration Opening Soon",
+      "status": "Verify",
+      "terrain": "Swim · bike · run",
+      "tier": "Iconic",
+      "link": "https://www.ironman.com/races/im703-maastricht-limburg",
+      "lat": 50.85,
+      "lon": 5.68333,
+      "distances": [
+        "1.9 km swim",
+        "90 km bike",
+        "21.1 km run"
+      ],
+      "types": [
+        "IRONMAN 70.3"
+      ],
+      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
+      "ticketCost": "See official IRONMAN registration pricing",
+      "transferPolicy": "Verify",
+      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
+      "sourceUrl": "https://www.ironman.com/races/im703-maastricht-limburg",
+      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2026-10/_C3_4367.jpg?h=95a129d3&itok=1CwONAob"
+    },
+    {
       "slug": "ironman-belgium-knokke-heist",
       "city": "Knokke-Heist",
       "country": "Belgium",
@@ -4561,36 +4591,6 @@
       "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
       "sourceUrl": "https://www.ironman.com/races/im703-malaga",
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2025-11/IM_70.3_Malaga_Race_Card_Sea.jpg?h=c808648e&itok=Qr1Saaj9"
-    },
-    {
-      "slug": "ironman-70-3-melbourne",
-      "city": "St. Kilda",
-      "country": "Australia",
-      "code": "AU",
-      "region": "Oceania",
-      "name": "IRONMAN 70.3 Melbourne",
-      "date": "2027-11-07",
-      "registration": "Flex90 Eligible",
-      "status": "Verify",
-      "terrain": "Swim · bike · run",
-      "tier": "Iconic",
-      "link": "https://www.ironman.com/races/im703-melbourne",
-      "lat": -37.86594,
-      "lon": 144.97897,
-      "distances": [
-        "1.9 km swim",
-        "90 km bike",
-        "21.1 km run"
-      ],
-      "types": [
-        "IRONMAN 70.3"
-      ],
-      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
-      "ticketCost": "See official IRONMAN registration pricing",
-      "transferPolicy": "Verify",
-      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
-      "sourceUrl": "https://www.ironman.com/races/im703-melbourne",
-      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/im703melbourne_eventcard_image1.jpg?h=c74750f6&itok=69iOM14d"
     },
     {
       "slug": "ironman-70-3-world-championship",
