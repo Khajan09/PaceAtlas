@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13T17:42:47.807Z",
+  "checkedAt": "2026-11-14T11:05:13.585Z",
   "sourceCount": 83,
   "reachableCount": 75,
   "unavailable": [
@@ -24,7 +24,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -48,7 +48,7 @@
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     }
   ]
 }
