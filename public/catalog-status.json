@@ -1,8 +1,26 @@
 {
-  "checkedAt": "2026-11-14T11:05:13.585Z",
+  "checkedAt": "2026-11-15T13:35:19.413Z",
   "sourceCount": 83,
-  "reachableCount": 75,
+  "reachableCount": 69,
   "unavailable": [
+    {
+      "url": "https://www.generali-berlin-marathon.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.beijing-marathon.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.tcsamsterdammarathon.eu/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
       "status": 0,
@@ -15,16 +33,34 @@
       "reachable": false
     },
     {
+      "url": "https://sydneymarathon.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
       "url": "https://www.casablanca-marathon.com/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
     },
     {
-      "url": "https://www.limamarathon.com/",
+      "url": "https://www.yescom.com.br/maratonasp/",
       "status": 0,
       "reachable": false,
       "error": "This operation was aborted"
+    },
+    {
+      "url": "https://maratondesantiago.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.limamarathon.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "fetch failed"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -42,7 +78,7 @@
       "url": "https://maraton.cdmx.gob.mx/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "url": "https://www.shmarathon.com/",
