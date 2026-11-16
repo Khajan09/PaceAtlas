@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-15T16:59:46.089Z",
+  "checkedAt": "2026-11-16T11:42:25.063Z",
   "sourceCount": 83,
-  "reachableCount": 75,
+  "reachableCount": 71,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
@@ -15,6 +15,12 @@
       "reachable": false
     },
     {
+      "url": "https://capetownmarathon.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
       "url": "https://www.casablanca-marathon.com/",
       "status": 0,
       "reachable": false,
@@ -24,7 +30,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -33,10 +39,28 @@
       "error": "fetch failed"
     },
     {
+      "url": "https://durbanmarathon.co.za/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
       "url": "https://www.42kpoa.com.br/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.nairobimarathon.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
+    },
+    {
+      "url": "https://www.runromethemarathon.com/en/home-2025-en-2/marathon/",
+      "status": 0,
+      "reachable": false,
+      "error": "This operation was aborted"
     },
     {
       "url": "https://maraton.cdmx.gob.mx/",
@@ -48,7 +72,7 @@
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     }
   ]
 }
