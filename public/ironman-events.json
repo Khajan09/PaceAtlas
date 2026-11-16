@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-15T16:59:00.071Z",
+  "checkedAt": "2026-11-16T11:37:13.896Z",
   "events": [
     {
       "slug": "ironman-70-3-phu-quoc",
@@ -1690,7 +1690,7 @@
       "region": "Europe",
       "name": "IRONMAN 70.3 Aix-en-Provence",
       "date": "2027-05-23",
-      "registration": "General Registration Sold Out",
+      "registration": "Registration Sold Out",
       "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
