@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-17T12:39:33.273Z",
+  "checkedAt": "2026-11-17T19:07:19.994Z",
   "sourceCount": 83,
-  "reachableCount": 72,
+  "reachableCount": 75,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
@@ -15,18 +15,6 @@
       "reachable": false
     },
     {
-      "url": "https://www.nnmarathonrotterdam.org/",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.vienna-marathon.com/index.html?go=events&lang=en",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
       "url": "https://www.casablanca-marathon.com/",
       "status": 0,
       "reachable": false,
@@ -36,7 +24,7 @@
       "url": "https://www.limamarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     },
     {
       "url": "https://www.marathonderabat.com/",
@@ -54,19 +42,13 @@
       "url": "https://maraton.cdmx.gob.mx/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     },
     {
       "url": "https://www.shmarathon.com/",
       "status": 0,
       "reachable": false,
-      "error": "This operation was aborted"
-    },
-    {
-      "url": "https://www.marathondessables.com/en",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
+      "error": "fetch failed"
     }
   ]
 }
