@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-18T12:03:32.468Z",
+  "checkedAt": "2026-11-18T18:46:04.544Z",
   "events": [
     {
       "slug": "ironman-70-3-langkawi",
@@ -100,8 +100,8 @@
       "region": "Americas",
       "name": "IRONMAN Cozumel",
       "date": "2026-11-22",
-      "registration": "Registration Sold Out",
-      "status": "Closed",
+      "registration": "Race Weekend",
+      "status": "Verify",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im-cozumel",
@@ -610,8 +610,8 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Panama",
       "date": "2027-02-28",
-      "registration": "Registration Now Open",
-      "status": "Open",
+      "registration": "Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-panama",
@@ -3723,6 +3723,36 @@
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2026-10/IRONMAN%2070.3%20Wisconsin%202026%20Card%20Image.jpg?h=fac762aa&itok=xXKH2q4i"
     },
     {
+      "slug": "ironman-70-3-belgrade",
+      "city": "Belgrade",
+      "country": "Serbia",
+      "code": "RS",
+      "region": "Europe",
+      "name": "IRONMAN 70.3 Belgrade",
+      "date": "2027-09-12",
+      "registration": "Registration Opening Soon",
+      "status": "Verify",
+      "terrain": "Swim · bike · run",
+      "tier": "Iconic",
+      "link": "https://www.ironman.com/races/im703-belgrade",
+      "lat": 44.81507,
+      "lon": 20.46048,
+      "distances": [
+        "1.9 km swim",
+        "90 km bike",
+        "21.1 km run"
+      ],
+      "types": [
+        "IRONMAN 70.3"
+      ],
+      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
+      "ticketCost": "See official IRONMAN registration pricing",
+      "transferPolicy": "Verify",
+      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
+      "sourceUrl": "https://www.ironman.com/races/im703-belgrade",
+      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2025-12/Belgrade%20IRONMAN%2070.3.jpg?h=6d76d949&itok=zg0eia5y"
+    },
+    {
       "slug": "ironman-70-3-erkner",
       "city": "Erkner",
       "country": "Germany",
@@ -4561,36 +4591,6 @@
       "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
       "sourceUrl": "https://www.ironman.com/races/im-california",
       "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2024-10/Card_IM_California_2024.jpg?h=e6e78363&itok=sLBrDnCe"
-    },
-    {
-      "slug": "ironman-70-3-malaga",
-      "city": "Malaga",
-      "country": "Spain",
-      "code": "ES",
-      "region": "Europe",
-      "name": "IRONMAN 70.3 Málaga",
-      "date": "2027-10-31",
-      "registration": "Registration Sold Out",
-      "status": "Closed",
-      "terrain": "Swim · bike · run",
-      "tier": "Iconic",
-      "link": "https://www.ironman.com/races/im703-malaga",
-      "lat": 36.71828,
-      "lon": -4.49047,
-      "distances": [
-        "1.9 km swim",
-        "90 km bike",
-        "21.1 km run"
-      ],
-      "types": [
-        "IRONMAN 70.3"
-      ],
-      "route": "Official 70.3 triathlon course. Swim, bike and run course maps and elevation details are published by the organizer for each edition.",
-      "ticketCost": "See official IRONMAN registration pricing",
-      "transferPolicy": "Verify",
-      "transferProcess": "IRONMAN entry transfer, deferral and withdrawal rules vary by event and region. Use the event’s official registration and athlete-information pages before purchasing or attempting to reassign an entry.",
-      "sourceUrl": "https://www.ironman.com/races/im703-malaga",
-      "imageUrl": "https://www.ironman.com/sites/default/files/styles/coh_medium_landscape/public/2025-11/IM_70.3_Malaga_Race_Card_Sea.jpg?h=c808648e&itok=Qr1Saaj9"
     },
     {
       "slug": "ironman-70-3-world-championship",
