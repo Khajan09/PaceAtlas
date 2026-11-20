@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-18T18:47:02.294Z",
+  "checkedAt": "2026-11-20T18:32:16.009Z",
   "sourceCount": 83,
   "reachableCount": 74,
   "unavailable": [
@@ -11,11 +11,6 @@
     },
     {
       "url": "https://www.schneiderelectricparismarathon.com/en",
-      "status": 500,
-      "reachable": false
-    },
-    {
-      "url": "https://www.nnmarathonrotterdam.org/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
@@ -52,6 +47,12 @@
     },
     {
       "url": "https://www.shmarathon.com/",
+      "status": 0,
+      "reachable": false,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://www.badwater.com/event/badwater-135/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
