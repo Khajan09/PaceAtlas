@@ -21,7 +21,12 @@ jobs:
         with:
           node-version: 22
       - name: Refresh official IRONMAN calendar
+        id: ironman_refresh
+        continue-on-error: true
         run: node scripts/sync-ironman-events.mjs
+      - name: Preserve last verified IRONMAN catalog when its source is unavailable
+        if: steps.ironman_refresh.outcome == 'failure'
+        run: echo "::warning::IRONMAN calendar could not be refreshed after retries. Keeping the last verified IRONMAN catalog and continuing the daily source check."
       - name: Check official race sources
         run: node scripts/check-race-sources.mjs
       - name: Publish daily verification timestamp
@@ -31,4 +36,9 @@ jobs:
           git add public/catalog-status.json public/ironman-events.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: record daily catalog verification"
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            git push && exit 0
+            sleep $((attempt * 10))
+          done
+          exit 1
