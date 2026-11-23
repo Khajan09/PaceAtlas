@@ -1,6 +1,13 @@
 name: Daily catalog source check
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/daily-catalog-refresh.yml'
+      - 'scripts/check-race-sources.mjs'
+      - 'scripts/sync-ironman-events.mjs'
   schedule:
     - cron: '7 10 * * *'
   workflow_dispatch:
