@@ -13,25 +13,48 @@ const regionFor=country=>{
 };
 const statusFor=value=>/open|available/i.test(value)&&!/soon/i.test(value)?'Open':/coming soon|opens/i.test(value)?'Opening soon':/closed|sold out|waitlist/i.test(value)?'Closed':'Verify';
 const absolute=value=>value.startsWith('http')?value:`${base}${value}`;
+const sleep=milliseconds=>new Promise(resolve=>setTimeout(resolve,milliseconds));
+const retryAfterMilliseconds=response=>{
+ const value=response.headers.get('retry-after');
+ if(!value)return 0;
+ const seconds=Number(value);
+ if(Number.isFinite(seconds))return Math.max(0,seconds*1000);
+ const date=Date.parse(value);
+ return Number.isNaN(date)?0:Math.max(0,date-Date.now());
+};
 
 const loadPage=async page=>{
  const url=page?`${base}/races?page=${page}`:`${base}/races`;
- let response;
- for(let attempt=1;attempt<=3;attempt++){
-  try{response=await fetch(url,{headers:{'user-agent':'Mozilla/5.0 PaceAtlas/1.0'},signal:AbortSignal.timeout(45000)});break}
-  catch(error){if(attempt===3)throw new Error(`Unable to load IRONMAN calendar page ${page}: ${error.message}`)}
+ const attempts=5;
+ for(let attempt=1;attempt<=attempts;attempt++){
+  try{
+   const response=await fetch(url,{headers:{'user-agent':'Mozilla/5.0 PaceAtlas/1.0'},signal:AbortSignal.timeout(60000)});
+   if(response.ok){
+    const html=await response.text();
+    const matches=[...html.matchAll(/card card__event[\s\S]*?(?=<div class="coh-container races-search-view__cards-row"|<nav class="pager"|$)/g)].map(match=>match[0]);
+    const cards=matches.filter(card=>/<h2 class="coh-heading coh-style-heading-4-size" >\s*IRONMAN(?:\s|&)/i.test(card));
+    return{page,html,cards};
+   }
+   const retryable=response.status===408||response.status===429||response.status>=500;
+   if(!retryable||attempt===attempts)throw new Error(`IRONMAN calendar returned ${response.status} for page ${page}`);
+   const delay=Math.max(retryAfterMilliseconds(response),Math.min(30000,2000*2**(attempt-1)))+Math.floor(Math.random()*750);
+   console.warn(`IRONMAN page ${page} returned ${response.status}; retrying in ${Math.round(delay/1000)}s (${attempt}/${attempts}).`);
+   await sleep(delay);
+  }catch(error){
+   if(attempt===attempts||/^IRONMAN calendar returned/.test(error.message))throw new Error(`Unable to load IRONMAN calendar page ${page}: ${error.message}`);
+   const delay=Math.min(30000,2000*2**(attempt-1))+Math.floor(Math.random()*750);
+   console.warn(`IRONMAN page ${page} request failed; retrying in ${Math.round(delay/1000)}s (${attempt}/${attempts}).`);
+   await sleep(delay);
+  }
  }
- if(!response.ok)throw new Error(`IRONMAN calendar returned ${response.status} for page ${page}`);
- const html=await response.text();
- const matches=[...html.matchAll(/card card__event[\s\S]*?(?=<div class="coh-container races-search-view__cards-row"|<nav class="pager"|$)/g)].map(match=>match[0]);
- const cards=matches.filter(card=>/<h2 class="coh-heading coh-style-heading-4-size" >\s*IRONMAN(?:\s|&)/i.test(card));
- return{page,html,cards};
+ throw new Error(`Unable to load IRONMAN calendar page ${page}`);
 };
 const pages=[];
-for(let start=0;start<24;start+=2){
- const batch=await Promise.all([0,1].map(offset=>loadPage(start+offset)));
- pages.push(...batch.filter(result=>result.cards.length));
- if(batch.some(result=>result.page>0&&result.cards.length===0))break;
+for(let page=0;page<24;page++){
+ const result=await loadPage(page);
+ if(page>0&&result.cards.length===0)break;
+ pages.push(result);
+ await sleep(750);
 }
 pages.sort((a,b)=>a.page-b.page);
 
