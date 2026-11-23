@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-20T18:31:25.829Z",
+  "checkedAt": "2026-11-23T01:09:38.013Z",
   "events": [
     {
       "slug": "ironman-70-3-langkawi",
@@ -3100,8 +3100,8 @@
       "region": "Americas",
       "name": "IRONMAN 70.3 Maine",
       "date": "2027-07-25",
-      "registration": "Flex90 Eligible",
-      "status": "Verify",
+      "registration": "General Registration Sold Out",
+      "status": "Closed",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
       "link": "https://www.ironman.com/races/im703-maine",
