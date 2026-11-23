@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-20T18:32:16.009Z",
+  "checkedAt": "2026-11-23T01:10:03.681Z",
   "sourceCount": 83,
-  "reachableCount": 74,
+  "reachableCount": 75,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
@@ -47,12 +47,6 @@
     },
     {
       "url": "https://www.shmarathon.com/",
-      "status": 0,
-      "reachable": false,
-      "error": "fetch failed"
-    },
-    {
-      "url": "https://www.badwater.com/event/badwater-135/",
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
