@@ -8,5 +8,13 @@
   },
   "observability": {
     "enabled": true
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "miles-ahead-subscribers",
+      "database_id": "323a64ad-79cc-4859-8c20-ca550fd25574",
+      "migrations_dir": "drizzle"
+    }
+  ]
 }

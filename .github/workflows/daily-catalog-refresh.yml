@@ -49,3 +49,9 @@ jobs:
             sleep $((attempt * 10))
           done
           exit 1
+      - name: Send one-time registration alerts
+        continue-on-error: true
+        env:
+          ALERT_DISPATCH_SECRET: ${{ secrets.ALERT_DISPATCH_SECRET }}
+          ALERT_DISPATCH_URL: ${{ vars.ALERT_DISPATCH_URL }}
+        run: node scripts/dispatch-registration-alerts.mjs

@@ -1,0 +1,6 @@
+import {env} from 'cloudflare:workers';
+import {subscriberDatabase} from '../../../../db/subscriptions';
+
+export const dynamic='force-dynamic';
+const csvValue=(value:unknown)=>`"${String(value??'').replace(/"/g,'""')}"`;
+export async function GET(request:Request){if(!env.ADMIN_API_KEY||request.headers.get('authorization')!==`Bearer ${env.ADMIN_API_KEY}`)return Response.json({error:'Unauthorized'},{status:401});const format=new URL(request.url).searchParams.get('format');const result=await subscriberDatabase().prepare('SELECT race_slug,race_name,channel,destination,status,created_at,notified_at,unsubscribed_at,last_error FROM registration_subscriptions ORDER BY created_at DESC').all<Record<string,unknown>>();const rows=result.results||[];if(format==='csv'){const fields=['race_slug','race_name','channel','destination','status','created_at','notified_at','unsubscribed_at','last_error'];const csv=[fields.join(','),...rows.map(row=>fields.map(field=>csvValue(row[field])).join(','))].join('\n');return new Response(csv,{headers:{'content-type':'text/csv; charset=utf-8','content-disposition':'attachment; filename="miles-ahead-subscribers.csv"','cache-control':'no-store'}})}return Response.json({subscriptions:rows},{headers:{'cache-control':'no-store'}})}
