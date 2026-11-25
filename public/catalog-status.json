@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-25T14:46:19.555Z",
+  "checkedAt": "2026-11-25T19:56:54.780Z",
   "sourceCount": 83,
-  "reachableCount": 73,
+  "reachableCount": 74,
   "unavailable": [
     {
       "url": "https://www.nyrr.org/tcsnycmarathon",
@@ -20,12 +20,6 @@
       "status": 0,
       "reachable": false,
       "error": "fetch failed"
-    },
-    {
-      "url": "https://www.vienna-marathon.com/index.html?go=events&lang=en",
-      "status": 0,
-      "reachable": false,
-      "error": "This operation was aborted"
     },
     {
       "url": "https://www.casablanca-marathon.com/",
