@@ -1,6 +1,6 @@
 {
   "source": "https://www.ironman.com/races",
-  "checkedAt": "2026-11-24T20:36:33.698Z",
+  "checkedAt": "2026-11-25T14:45:17.616Z",
   "events": [
     {
       "slug": "ironman-70-3-cartagena",
@@ -3217,7 +3217,7 @@
       "city": "Hradec Králové",
       "country": "Czechia",
       "code": "CZ",
-      "region": "Americas",
+      "region": "Europe",
       "name": "IRONMAN 70.3 Hradec Králové",
       "date": "2027-08-15",
       "registration": "Registration Opening Soon",
@@ -4450,7 +4450,7 @@
       "region": "Africa",
       "name": "IRONMAN 70.3 Agadir",
       "date": "2027-10-24",
-      "registration": "Registration Opening Soon",
+      "registration": "Flex90 Eligible",
       "status": "Verify",
       "terrain": "Swim · bike · run",
       "tier": "Iconic",
