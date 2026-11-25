@@ -5,7 +5,7 @@ const decode=value=>value.replace(/&quot;/g,'"').replace(/&#039;|&apos;/g,"'").r
 const slug=value=>value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
 const isoDate=value=>{const parsed=new Date(`${value} 12:00:00 UTC`);return Number.isNaN(parsed.valueOf())?'':parsed.toISOString().slice(0,10)};
 const regionFor=country=>{
- const europe=['Albania','Austria','Belgium','Croatia','Czech Republic','Denmark','Estonia','Finland','France','Germany','Greece','Ireland','Italy','Kazakhstan','Latvia','Netherlands','Norway','Poland','Portugal','Romania','Serbia','Slovakia','Slovenia','Spain','Sweden','Switzerland','Türkiye','United Kingdom'];
+ const europe=['Albania','Austria','Belgium','Croatia','Czechia','Czech Republic','Denmark','Estonia','Finland','France','Germany','Greece','Ireland','Italy','Kazakhstan','Latvia','Netherlands','Norway','Poland','Portugal','Romania','Serbia','Slovakia','Slovenia','Spain','Sweden','Switzerland','Türkiye','United Kingdom'];
  const asia=['China','Chinese Taipei','India','Indonesia','Japan','Malaysia','Philippines','South Korea','Thailand','Vietnam'];
  const africa=['Egypt','Morocco','Rwanda','South Africa'];
  const oceania=['Australia','New Zealand'];
